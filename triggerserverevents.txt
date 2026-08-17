@@ -1,0 +1,2821 @@
+===============================================================================
+                     ALL TRIGGERSERVEREVENT CALLS FOUND                        
+===============================================================================
+Total TriggerServerEvent Occurrences: 1250
+Total Unique Event Names Extracted:   627
+Generated On: 2026-08-17T16:00:58.431Z
+===============================================================================
+
+--- UNIQUE SERVER EVENT NAMES ---
+   1. 17mov_Callbacks:GetResponse
+   2. 17mov_Construction:DisableThisPipe
+   3. 17mov_Construction:SpawnPipe_SV
+   4. 17mov_Garbage:ClientReactRequest
+   5. 17mov_Garbage:KickPlayerFromLobby
+   6. 17mov_Garbage:SendRequestToClient_sv
+   7. 17mov_Garbage:StartJob_sv
+   8. 17mov_Garbage:UpdateServerPartyBagsCounter
+   9. 17mov_Garbage:endJob_sv
+  10. 17mov_Garbage:server:endStage
+  11. 17mov_GarbageCollector:BagCollected
+  12. 17mov_GarbageCollector:ToggleTrunk
+  13. 17mov_GarbageCollector:server:BagCollected
+  14. 17mov_GarbageCollector:server:GarbageAnim
+  15. 17mov_GarbageCollector:server:GarbageSetOcupied
+  16. 17mov_GarbageCollector:server:TeleportCrewMembers
+  17. 17mov_GarbageCollector:server:clearRequest
+  18. 17mov_GarbageCollector:server:fixRotation
+  19. 17mov_GarbageCollector:server:hideBox
+  20. 17mov_GarbageCollector:server:startUnloadAnim
+  21. 17mov_GarbageJob:SendVehicleNetId
+  22. 17mov_GrupeSechs:HasBeenFetched
+  23. 17mov_GruppeSechs:ClientReactRequest
+  24. 17mov_GruppeSechs:CloseDoorsFunc
+  25. 17mov_GruppeSechs:DeleteNetId
+  26. 17mov_GruppeSechs:DeliverThisAtm
+  27. 17mov_GruppeSechs:DisableUsFromTransports
+  28. 17mov_GruppeSechs:ImReady
+  29. 17mov_GruppeSechs:KickPlayerFromLobby
+  30. 17mov_GruppeSechs:LoggedOut
+  31. 17mov_GruppeSechs:MoneyLoaded
+  32. 17mov_GruppeSechs:NotifyCops
+  33. 17mov_GruppeSechs:OneBagGrabbed
+  34. 17mov_GruppeSechs:OpenDoor
+  35. 17mov_GruppeSechs:OpenVehicleDoors
+  36. 17mov_GruppeSechs:RemovePile
+  37. 17mov_GruppeSechs:RobComplete
+  38. 17mov_GruppeSechs:SendMessage
+  39. 17mov_GruppeSechs:SendRequestToClient_sv
+  40. 17mov_GruppeSechs:SendVehicleNetId
+  41. 17mov_GruppeSechs:SpawnDoors
+  42. 17mov_GruppeSechs:StartHeist
+  43. 17mov_GruppeSechs:StartJob_sv
+  44. 17mov_GruppeSechs:attachEntity
+  45. 17mov_GruppeSechs:blockEngine
+  46. 17mov_GruppeSechs:closeDoor
+  47. 17mov_GruppeSechs:disableThisStation
+  48. 17mov_GruppeSechs:doorsOpenedOnTarget
+  49. 17mov_GruppeSechs:enableThisStation
+  50. 17mov_GruppeSechs:endHeist
+  51. 17mov_GruppeSechs:endJob_sv
+  52. 17mov_GruppeSechs:firstStageReady
+  53. 17mov_GruppeSechs:syncEntity
+  54. 17mov_builder:CustomTaskDone
+  55. 17mov_construction:ClientReactRequest
+  56. 17mov_construction:KickPlayerFromLobby
+  57. 17mov_construction:PourConcrete
+  58. 17mov_construction:SendRequestToClient_sv
+  59. 17mov_construction:SendVehicleNetId
+  60. 17mov_construction:StartJob_sv
+  61. 17mov_construction:endJob_sv
+  62. 17mov_constructionJob:deleteBlockFromSpawn
+  63. 17mov_constructionJob:installBlockOnWall
+  64. 17mov_constructionJob:sendMixer
+  65. 17mov_constructionJob:weldingReady
+  66. 17mov_deliverer:ClientReactRequest
+  67. 17mov_deliverer:KickPlayerFromLobby
+  68. 17mov_deliverer:StartJob_sv
+  69. 17mov_deliverer:endJob_sv
+  70. 17mov_deliverer:uploadJobVehicle
+  71. 17mov_postman:ClientReactRequest
+  72. 17mov_postman:KickPlayerFromLobby
+  73. 17mov_postman:SendRequestToClient_sv
+  74. 17mov_postman:StartJob_sv
+  75. 17mov_postman:collectLetter
+  76. 17mov_postman:endJob_sv
+  77. 17mov_postman:uploadJobVehicle
+  78. 17movement_builder:disableCustomTask
+  79. CarryPeople:stop
+  80. CarryPeople:sync
+  81. InteractSound_SV:PlayOnOne
+  82. InteractSound_SV:PlayOnSource
+  83. InteractSound_SV:PlayWithinDistance
+  84. PowerRanger-Siren:server:SyncState
+  85. QBCore:Server:OnPlayerLoaded
+  86. QBCore:Server:TriggerCallback
+  87. QBCore:Server:TriggerClientCallback
+  88. QBCore:ToggleDuty
+  89. RSGCore:ToggleDuty
+  90. Renewed-Banking:server:addAccountMember
+  91. Renewed-Banking:server:changeAccountName
+  92. Renewed-Banking:server:createNewAccount
+  93. Renewed-Banking:server:getPlayerAccounts
+  94. Renewed-Weather:server:removeWeatherEvent
+  95. aethel:server:adminAction
+  96. aethel:server:requestOpen
+  97. baseevents:enteredVehicle
+  98. baseevents:enteringAborted
+  99. baseevents:enteringVehicle
+ 100. baseevents:leftVehicle
+ 101. baseevents:onPlayerDied
+ 102. baseevents:onPlayerKilled
+ 103. baseevents:onPlayerWasted
+ 104. cd_easytime:ForceUpdate
+ 105. cd_garage:AddPersistentVehicles
+ 106. cd_garage:RemovePersistentVehicles
+ 107. chat:init
+ 108. cia:changeGender
+ 109. cia:changeLicense
+ 110. cia:changeName
+ 111. cia:changeSlot
+ 112. cia:checkLicense
+ 113. cia:checkPermission
+ 114. codem-inventory:server:openstash
+ 115. consumables:server:addHunger
+ 116. consumables:server:addThirst
+ 117. core_inventory:server:openInventory
+ 118. damagelog:playerDamaged
+ 119. deathlog:playerDied
+ 120. drc_wine:Gather
+ 121. drc_wine:LabelShop:giveitems
+ 122. drc_wine:SetOccupied
+ 123. drc_wine:Shop:giveitems
+ 124. drc_wine:WineBottle
+ 125. drc_wine:WineCosumables
+ 126. drc_wine:giveitems
+ 127. drc_wine:selling:pay
+ 128. drc_wine:server:OpenInventory
+ 129. drc_wine:server:add
+ 130. esx_skin:save
+ 131. esx_society:depositMoney
+ 132. esx_society:withdrawMoney
+ 133. grp_ambulancejob:server:BillRevivedPlayer
+ 134. grp_ambulancejob:server:ConfirmBillResult
+ 135. grp_ambulancejob:server:RequestBillPlayer
+ 136. grp_ambulancejob:server:UseMedicItem
+ 137. grp_ambulancejob:server:playerEnteredBed
+ 138. grp_ambulancejob:server:playerLeftBed
+ 139. grp_ambulancejob:server:resetMedicineLimit
+ 140. hospital:server:FaceSurgery
+ 141. hospital:server:PutOnBed
+ 142. hospital:server:PutOnStretcher
+ 143. hospital:server:RevivePlayer
+ 144. hospital:server:TakeOffBed
+ 145. hospital:server:TreatWounds
+ 146. hospital:server:UseFirstAid
+ 147. hospital:server:ambulanceAlert
+ 148. hospital:server:emergencyAlert
+ 149. hospital:server:putPlayerInBed
+ 150. hospital:server:syncCPRPatient
+ 151. hud:server:GainStress
+ 152. hud:server:RelieveStress
+ 153. illenium-appearance:server:ChangeRoutingBucket
+ 154. illenium-appearance:server:ResetRoutingBucket
+ 155. illenium-appearance:server:chargeCustomer
+ 156. illenium-appearance:server:deleteManagementOutfit
+ 157. illenium-appearance:server:deleteOutfit
+ 158. illenium-appearance:server:migrate-qb-clothing-skin
+ 159. illenium-appearance:server:resetOutfitCache
+ 160. illenium-appearance:server:saveAppearance
+ 161. illenium-appearance:server:saveManagementOutfit
+ 162. illenium-appearance:server:saveOutfit
+ 163. illenium-appearance:server:syncUniform
+ 164. illenium-appearance:server:updateOutfit
+ 165. inventory:server:OpenInventory
+ 166. jg-advancedgarages:server:dealerships-send-to-default-garage
+ 167. jg-advancedgarages:server:register-vehicle-outside
+ 168. jg-advancedgarages:server:save-ti-fuel-type
+ 169. jg-advancedgarages:server:set-vehicle-owned
+ 170. jg-dealerships:server:employee-hire-rejected
+ 171. jg-dealerships:server:exit-bucket
+ 172. jg-dealerships:server:fire-employee
+ 173. jg-dealerships:server:hire-employee
+ 174. jg-dealerships:server:notify-other-player
+ 175. jg-dealerships:server:purchase-vehicle:config
+ 176. jg-dealerships:server:request-hire-employee
+ 177. jg-dealerships:server:save-ti-fuel-type
+ 178. jg-dealerships:server:update-employee-role
+ 179. jg-dealerships:server:update-purchased-vehicle-props
+ 180. jim-mechanic:server:loadStatus
+ 181. jim-recycle:Server:DoorCharge
+ 182. jim-recycle:Server:TradeItems
+ 183. jim-recycle:server:getDumpsterReward
+ 184. jim-recycle:server:getScrapReward
+ 185. jim-shops:ShopOpen
+ 186. jim_bridge:requestCache
+ 187. lb-phone:cb:
+ 188. lb-phone:cb:response
+ 189. lb-phone:customApp
+ 190. lb-tablet:addBaseDispatch
+ 191. lb-tablet:addDispatch
+ 192. lb-tablet:baseDispatch:deletePhoneObject
+ 193. lb-tablet:cb:
+ 194. lb-tablet:cb:response
+ 195. lb-tablet:frameworkLoaded
+ 196. liveEdit:leaveDocument
+ 197. liveEdit:refreshAwareness
+ 198. liveEdit:saveFullDocState
+ 199. liveEdit:updateAwareness
+ 200. lunar_contracts:boosting:deliverVehicle
+ 201. lunar_contracts:boosting:lockpicked
+ 202. lunar_contracts:boosting:signalHacked
+ 203. lunar_contracts:boosting:spawnVehicle
+ 204. lunar_contracts:cargo:cancelSync
+ 205. lunar_contracts:cargo:lootGuard
+ 206. lunar_contracts:cargo:removeTracker
+ 207. lunar_contracts:cargo:syncContainer
+ 208. lunar_contracts:cargo:takeLoot
+ 209. lunar_contracts:cashexchange:disableSmartLock
+ 210. lunar_contracts:cashexchange:unlockOtherDoors
+ 211. lunar_contracts:cashexchange:unlockVault
+ 212. lunar_contracts:freeOccupiedSpot
+ 213. lunar_contracts:heistCancelledByPolice
+ 214. lunar_contracts:house:alarm
+ 215. lunar_contracts:house:entered
+ 216. lunar_contracts:house:exited
+ 217. lunar_contracts:house:hackedKeypad
+ 218. lunar_contracts:house:lockpicked
+ 219. lunar_contracts:house:lootGuard
+ 220. lunar_contracts:house:stealDisplayCase
+ 221. lunar_contracts:house:stealPainting
+ 222. lunar_contracts:house:takeLoot
+ 223. lunar_contracts:house:updateAlertLevel
+ 224. lunar_contracts:kickMember
+ 225. lunar_contracts:laundromat:cutGeneratorPower
+ 226. lunar_contracts:laundromat:openSafe
+ 227. lunar_contracts:laundromat:takeLoot
+ 228. lunar_contracts:laundromat:unlockOfficeDoor
+ 229. lunar_contracts:loot:stopTaking
+ 230. lunar_contracts:resolveInvite
+ 231. lusty94_smoking:server:UseItem
+ 232. lusty94_smoking:server:UseVapeJuice
+ 233. lusty94_smoking:server:openShop
+ 234. lusty94_smoking:server:returnItems
+ 235. mka-lasers:save
+ 236. mm_radio:server:addToRadioChannel
+ 237. mm_radio:server:addallowedchannel
+ 238. mm_radio:server:changeJammerRange
+ 239. mm_radio:server:consumeBattery
+ 240. mm_radio:server:createdefaultjammer
+ 241. mm_radio:server:rechargeBattery
+ 242. mm_radio:server:removeFromRadioChannel
+ 243. mm_radio:server:removeallowedchannel
+ 244. mm_radio:server:removejammer
+ 245. mm_radio:server:spawnobject
+ 246. mm_radio:server:togglejammer
+ 247. muzik-cal
+ 248. muzik-devamet
+ 249. muzik-duraklat
+ 250. muzik-durdur
+ 251. okokGarage:GiveKeys
+ 252. ox_doorlock:breakLockpick
+ 253. ox_doorlock:editDoorlock
+ 254. ox_doorlock:setState
+ 255. ox_doorlock:teleportToDoor
+ 256. ox_fuel:fuelCan
+ 257. ox_fuel:pay
+ 258. ox_fuel:setFuel
+ 259. ox_fuel:updateFuelCan
+ 260. ox_inventory:closeInventory
+ 261. ox_inventory:updateWeapon
+ 262. ox_inventory:usedItemInternal
+ 263. ox_lib:progressProps
+ 264. ox_lib:saveZone
+ 265. ox_lib:validateCallback
+ 266. ox_target:setEntityHasOptions
+ 267. ox_target:toggleEntityDoor
+ 268. oxmysql:fetchResource
+ 269. pd_cooldown:server:updateCityStatus
+ 270. pd_cooldown:server:updateRobberyStatus
+ 271. phone:airShare:interacted
+ 272. phone:battery:setBattery
+ 273. phone:camera:endedRecording
+ 274. phone:camera:setPeer
+ 275. phone:crypto:fetchCoins
+ 276. phone:crypto:setAppOpen
+ 277. phone:endCall
+ 278. phone:factoryReset
+ 279. phone:failedControl
+ 280. phone:finishedSetup
+ 281. phone:instagram:addCall
+ 282. phone:instagram:enteredLiveProximity
+ 283. phone:instagram:inviteLive
+ 284. phone:instagram:leftLiveProximity
+ 285. phone:instagram:removeLive
+ 286. phone:instagram:sendLiveMessage
+ 287. phone:instagram:startLive
+ 288. phone:logCall
+ 289. phone:messages:messageSent
+ 290. phone:phone:disableCompanyCalls
+ 291. phone:phone:enteredCallProximity
+ 292. phone:phone:leftCallProximity
+ 293. phone:phone:toggleMute
+ 294. phone:phone:toggleSpeaker
+ 295. phone:services:toggleDuty
+ 296. phone:setListeningPeerId
+ 297. phone:setName
+ 298. phone:setPhoneObject
+ 299. phone:sound:playSound
+ 300. phone:sound:stopSound
+ 301. phone:tiktok:clearUnreadMessages
+ 302. phone:tiktok:setViewed
+ 303. phone:toggleFlashlight
+ 304. phone:togglePhone
+ 305. phone:voice:addToCall
+ 306. phone:voice:removeFromCall
+ 307. phone:voice:toggleSpeaker
+ 308. phone:webrtc:createdPeer
+ 309. phone:webrtc:deletedPeer
+ 310. phone:webrtc:signal
+ 311. pma-voice:setPlayerCall
+ 312. pma-voice:setPlayerRadio
+ 313. pma-voice:setTalkingOnRadio
+ 314. police:server:BillPlayer
+ 315. police:server:CuffPlayer
+ 316. police:server:FlaggedPlateTriggered
+ 317. police:server:Impound
+ 318. police:server:JailPlayer
+ 319. police:server:KidnapPlayer
+ 320. police:server:Radar
+ 321. police:server:RobPlayer
+ 322. police:server:SearchPlayer
+ 323. police:server:SeizeCash
+ 324. police:server:SendEmergencyMessage
+ 325. police:server:SendTrackerLocation
+ 326. police:server:SetHandcuffStatus
+ 327. police:server:SetTracker
+ 328. police:server:TakeOutImpound
+ 329. police:server:UpdateBlips
+ 330. police:server:despawnObject
+ 331. police:server:despawnSpikeStrip
+ 332. police:server:policeAlert
+ 333. police:server:showFingerprint
+ 334. police:server:showFingerprintId
+ 335. polyzone:printBox
+ 336. polyzone:printCircle
+ 337. polyzone:printPoly
+ 338. ps-adminmenu:server:ChangePlate
+ 339. ps-adminmenu:server:OpenInv
+ 340. ps-adminmenu:server:OpenStash
+ 341. ps-adminmenu:server:OpenTrunk
+ 342. ps-adminmenu:server:SaveCar
+ 343. ps-adminmenu:server:ValidateClientAction
+ 344. ps-adminmenu:server:ValidateCommand
+ 345. ps-adminmenu:server:sendMessageServer
+ 346. ps-adminmenu:spectate:teleport
+ 347. ps-dispatch:server:notify
+ 348. ps-inventory:server:OpenInventory
+ 349. ps-multijob:changeJob
+ 350. ps-multijob:removeJob
+ 351. qb-apartments:server:SetInsideMeta
+ 352. qb-banservice:server:checkBanServiceOnLoad
+ 353. qb-banservice:server:completeBanService
+ 354. qb-banservice:server:endBanService
+ 355. qb-banservice:server:extendBanService
+ 356. qb-banservice:server:finishBanService
+ 357. qb-banservice:server:getBanServiceDetails
+ 358. qb-banservice:server:sendBanService
+ 359. qb-banservice:server:sendBanServiceCitizenID
+ 360. qb-banservice:server:updateBanService
+ 361. qb-bossmenu:server:FireEmployee
+ 362. qb-bossmenu:server:GradeUpdate
+ 363. qb-bossmenu:server:HireEmployee
+ 364. qb-bossmenu:server:depositMoney
+ 365. qb-bossmenu:server:withdrawMoney
+ 366. qb-clothes:loadPlayerSkin
+ 367. qb-clothing:server:loadPlayerSkin
+ 368. qb-community:client:sendData
+ 369. qb-community:server:endCommunityService
+ 370. qb-community:server:extendService
+ 371. qb-community:server:finishCommunityService
+ 372. qb-community:server:teleportPlayer
+ 373. qb-community:server:updateService
+ 374. qb-houses:server:SetInsideMeta
+ 375. qb-houses:server:giveHouseKey
+ 376. qb-houses:server:lockHouse
+ 377. qb-houses:server:removeHouseKey
+ 378. qb-houses:server:setHouses
+ 379. qb-log:server:CreateLog
+ 380. qb-phone:server:sendNewMail
+ 381. qb-radialmenu:trunk:server:Door
+ 382. qb-smallresources:trunk:server:setTrunkBusy
+ 383. qb-taxi:server:NpcPay
+ 384. qb-tow:server:DoBail
+ 385. qb-trunk:server:KidnapTrunk
+ 386. qb-trunk:server:setTrunkBusy
+ 387. qb-vehiclekeys:server:AcquireVehicleKeys
+ 388. qb-vehiclekeys:server:breakLockpick
+ 389. qb-vehiclekeys:server:removeKeys
+ 390. qb-vehiclekeys:server:setVehLockState
+ 391. qb-weathersync:server:setTime
+ 392. qb-weathersync:server:setWeather
+ 393. qbx_core:server:deleteCharacter
+ 394. qbx_core:server:vehiclePropsChanged
+ 395. qbx_fireworks:server:spawnObject
+ 396. qbx_truckrobbery:server:plantedBomb
+ 397. qbx_truckrobbery:server:startMission
+ 398. qbx_vehiclekeys:server:hotwiredVehicle
+ 399. qbx_vehiclekeys:server:playerEnteredVehicleWithEngineOn
+ 400. qbx_vehiclekeys:server:tookKeys
+ 401. qs-vehiclekeys:server:GiveKeys
+ 402. ranger_ac:resourceState
+ 403. rcore_clothing:reloadSkin
+ 404. royal_music:syncPlay
+ 405. rpemotes:ptfx:sync
+ 406. rpemotes:server:cancelEmote
+ 407. rpemotes:server:confirmEmote
+ 408. rpemotes:server:confirmGroupEmote
+ 409. rpemotes:server:refuseGroupEmote
+ 410. rpemotes:server:requestEmote
+ 411. rpemotes:server:requestPermissions
+ 412. rpemotes:server:shareEmoji
+ 413. rpemotes:server:startGroupEmote
+ 414. rpemotes:server:syncHeading
+ 415. rtx_housing:Global:AddPermission
+ 416. rtx_housing:Global:PropertyLockStatus
+ 417. rtx_housing:Global:RemovePermission
+ 418. script:server:setItemMetaData
+ 419. snipe-adminmenu:server:damagePlayerVehicle
+ 420. snipe-adminmenu:server:drunkPlayer
+ 421. snipe-adminmenu:server:firePlayer
+ 422. snipe-adminmenu:server:peePlayer
+ 423. snipe-adminmenu:server:playSound
+ 424. snipe-adminmenu:server:poopPlayer
+ 425. snipe-adminmenu:server:sendToJailBox
+ 426. snipe-adminmenu:server:slapSky
+ 427. snipe-menu:server:Announce
+ 428. snipe-menu:server:OpenInventoryQBCompatibility
+ 429. snipe-menu:server:addAdminCar
+ 430. snipe-menu:server:adminMessageSent
+ 431. snipe-menu:server:banOfflinePlayer
+ 432. snipe-menu:server:banPlayer
+ 433. snipe-menu:server:blipsStarted
+ 434. snipe-menu:server:bringPlayer
+ 435. snipe-menu:server:changeModel
+ 436. snipe-menu:server:changePlate
+ 437. snipe-menu:server:changeVehicleState
+ 438. snipe-menu:server:clearInventory
+ 439. snipe-menu:server:cycle
+ 440. snipe-menu:server:deleteProp
+ 441. snipe-menu:server:endSpectate
+ 442. snipe-menu:server:forceLogout
+ 443. snipe-menu:server:forceOpenOxInventory
+ 444. snipe-menu:server:freezeplayer
+ 445. snipe-menu:server:giveClothes
+ 446. snipe-menu:server:giveItem
+ 447. snipe-menu:server:giveMoney
+ 448. snipe-menu:server:giveOutfits
+ 449. snipe-menu:server:givePerms
+ 450. snipe-menu:server:givecar
+ 451. snipe-menu:server:healPlayer
+ 452. snipe-menu:server:kickPlayer
+ 453. snipe-menu:server:moveObject
+ 454. snipe-menu:server:notifyAdmins
+ 455. snipe-menu:server:openInventory
+ 456. snipe-menu:server:openStash
+ 457. snipe-menu:server:openinventory
+ 458. snipe-menu:server:playerLoaded
+ 459. snipe-menu:server:playerTeleportFromReport
+ 460. snipe-menu:server:putNewJobStash
+ 461. snipe-menu:server:registerStash
+ 462. snipe-menu:server:removeRoles
+ 463. snipe-menu:server:removeStress
+ 464. snipe-menu:server:removeVehicle
+ 465. snipe-menu:server:restartResource
+ 466. snipe-menu:server:revertClothing
+ 467. snipe-menu:server:reviveInRadius
+ 468. snipe-menu:server:reviveall
+ 469. snipe-menu:server:reviveplayer
+ 470. snipe-menu:server:saveModeratorCommands
+ 471. snipe-menu:server:sendBackPlayer
+ 472. snipe-menu:server:sendDmToPlayer
+ 473. snipe-menu:server:sendLogs
+ 474. snipe-menu:server:setGang
+ 475. snipe-menu:server:setjob
+ 476. snipe-menu:server:spectatePlayer
+ 477. snipe-menu:server:startResource
+ 478. snipe-menu:server:startSpectating
+ 479. snipe-menu:server:stopResource
+ 480. snipe-menu:server:teleporttoplayer
+ 481. snipe-menu:server:ticket:addParticipant
+ 482. snipe-menu:server:ticket:claim
+ 483. snipe-menu:server:ticket:clearStatistics
+ 484. snipe-menu:server:ticket:close
+ 485. snipe-menu:server:ticket:create
+ 486. snipe-menu:server:ticket:deleteCategory
+ 487. snipe-menu:server:ticket:deleteQuickTicket
+ 488. snipe-menu:server:ticket:internalNote
+ 489. snipe-menu:server:ticket:message
+ 490. snipe-menu:server:ticket:removeParticipant
+ 491. snipe-menu:server:ticket:submitRating
+ 492. snipe-menu:server:ticket:unclaim
+ 493. snipe-menu:server:ticket:upsertCategory
+ 494. snipe-menu:server:ticket:upsertQuickTicket
+ 495. snipe-menu:server:toggleAdminTag
+ 496. snipe-menu:server:toggleBennys
+ 497. snipe-menu:server:toggleDev
+ 498. snipe-menu:server:toggleDoor
+ 499. snipe-menu:server:toggleReports
+ 500. snipe-menu:server:unbanPlayer
+ 501. snipe-menu:server:warnPlayer
+ 502. snipe-menu:server:wipePlayer
+ 503. t1ger_keys:updateOwnedKeys
+ 504. tablet:airShare:interacted
+ 505. tablet:deleteTabletObject
+ 506. tablet:dispatch:respond
+ 507. tablet:failedControl
+ 508. tablet:finishedSetup
+ 509. tablet:logError
+ 510. tablet:services:toggleDuty
+ 511. tablet:setListeningPeerId
+ 512. tablet:setTabletObject
+ 513. tablet:toggleFlashlight
+ 514. tablet:toggleOpen
+ 515. txsv:ackWarning
+ 516. txsv:checkIfAdmin
+ 517. txsv:logger:deathEvent
+ 518. txsv:req:bringPlayer
+ 519. txsv:req:changePlayerMode
+ 520. txsv:req:clearArea
+ 521. txsv:req:freezePlayer
+ 522. txsv:req:healEveryone
+ 523. txsv:req:healMyself
+ 524. txsv:req:healPlayer
+ 525. txsv:req:plist:getDetailed
+ 526. txsv:req:sendAnnouncement
+ 527. txsv:req:serverCtx
+ 528. txsv:req:showPlayerIDs
+ 529. txsv:req:spectate:cycle
+ 530. txsv:req:spectate:end
+ 531. txsv:req:spectate:start
+ 532. txsv:req:tpToCoords
+ 533. txsv:req:tpToPlayer
+ 534. txsv:req:tpToWaypoint
+ 535. txsv:req:troll:setDrunk
+ 536. txsv:req:troll:setOnFire
+ 537. txsv:req:troll:wildAttack
+ 538. txsv:req:vehicle:boost
+ 539. txsv:req:vehicle:delete
+ 540. txsv:req:vehicle:fix
+ 541. txsv:req:vehicle:spawn:fivem
+ 542. txsv:req:vehicle:spawn:redm
+ 543. txsv:startedWalking
+ 544. txsv:webpipe:req
+ 545. utils:TriggerCallback
+ 546. vehicles_keys:selfGiveVehicleKeys
+ 547. vms_housing:sv:buyKey
+ 548. vms_housing:sv:giveKey
+ 549. vms_housing:sv:removeKey
+ 550. vrp-crafting:server:cancelCraft
+ 551. vrp-crafting:server:closeCreator
+ 552. vrp-crafting:server:completeCraft
+ 553. vrp-crafting:server:craftItem
+ 554. vrp-crafting:server:deleteBench
+ 555. vrp-crafting:server:getBenches
+ 556. vrp-crafting:server:getPlayerInfo
+ 557. vrp-crafting:server:openBench
+ 558. vrp-crafting:server:openCreator
+ 559. vrp-crafting:server:requestConfig
+ 560. vrp-crafting:server:requestPlayerData
+ 561. vrp-crafting:server:saveBench
+ 562. vrp-crafting:server:saveRecipeGroups
+ 563. vrp-crafting:server:saveSettings
+ 564. vrp-fishing:registerBoat
+ 565. vrp_aiems:checkMoney
+ 566. vrp_aiems:server:RevivePlayer
+ 567. vrp_aiems:server:requestMenu
+ 568. vrp_boombox:DiscordKnows
+ 569. vrp_boombox:deleteObj
+ 570. vrp_boombox:deleteSong
+ 571. vrp_boombox:objDeleted
+ 572. vrp_boombox:save
+ 573. vrp_boombox:soundStatus
+ 574. vrp_boombox:syncActive
+ 575. vrp_busjob:server:CompleteRoute
+ 576. vrp_busjob:server:GiveBusKeys
+ 577. vrp_busjob:server:RewardLeftItem
+ 578. vrp_busjob:server:RouteFailed
+ 579. vrp_busjob:server:UnlockRoute
+ 580. vrp_character:server:createCharacter
+ 581. vrp_character:server:deleteCharacter
+ 582. vrp_character:server:giveStarterItems
+ 583. vrp_character:server:loadUserData
+ 584. vrp_character:server:logout
+ 585. vrp_character:server:resetBucket
+ 586. vrp_character:server:setBucket
+ 587. vrp_combatlog:server:registerCitizen
+ 588. vrp_hunting:server:AddItem
+ 589. vrp_hunting:server:choiceWhichAnimalToSpawn
+ 590. vrp_hunting:server:removeBaitFromPlayerInventory
+ 591. vrp_hunting:server:sellSpecificItem
+ 592. vrp_medical:server:onPlayerDied
+ 593. vrp_medical:server:onPlayerLaststand
+ 594. vrp_medical:server:onPlayerLaststandEnd
+ 595. vrp_motels:Door
+ 596. vrp_restaurants:server:admin
+ 597. vrp_restaurants:server:changeSongStatus
+ 598. vrp_restaurants:server:playSong
+ 599. vrp_restaurants:server:sitChair
+ 600. vrp_restaurants:server:stopSong
+ 601. vrp_restaurants:server:updateSpawnedShopPeds
+ 602. vrp_taxijob:server:acceptOffer
+ 603. vrp_taxijob:server:cancelRide
+ 604. vrp_taxijob:server:completeRide
+ 605. vrp_taxijob:server:declineOffer
+ 606. vrp_taxijob:server:toggleDuty
+ 607. vrp_towjob:server:acceptTowOffer
+ 608. vrp_towjob:server:cancelTowJob
+ 609. vrp_towjob:server:completeTowJob
+ 610. vrp_towjob:server:declineTowOffer
+ 611. vrp_towjob:server:getTowData
+ 612. vrp_towjob:server:requestCurrentOffers
+ 613. vrp_towjob:server:toggleTowDuty
+ 614. vrp_tracker:server:removeItem
+ 615. vrp_tracker:server:setobj
+ 616. w-backitemdisplay:updatePlayer
+ 617. w-backitemdisplay:updatePlayers
+ 618. wais:add:tableDashcam
+ 619. wais:checkPlayer:job
+ 620. wais:removeTable:bodycam:inventory
+ 621. wais:removeTable:dashcam
+ 622. wais:unload
+ 623. wais:upload:record
+ 624. weaponOnBack:updatePlayer
+ 625. welcome_car:server:claimVehicle
+ 626. x99-badge:SaveMetaData
+ 627. x99-badge:item:create
+
+===============================================================================
+--- ALL TRIGGERSERVEREVENT CALLS (BY FILE & LINE) ---
+===============================================================================
+
+
+File: aethel_tracker/client/main.lua
+------------------------------------
+  Line    11 | TriggerServerEvent('aethel:server:requestOpen')
+  Line    39 | TriggerServerEvent('aethel:server:requestOpen')
+  Line    44 | TriggerServerEvent('aethel:server:adminAction', data.action, data.citizenid)
+
+File: aiems/client/main.lua
+---------------------------
+  Line    37 | TriggerServerEvent('vrp_aiems:server:requestMenu')
+  Line    63 | TriggerServerEvent('vrp_aiems:checkMoney', pendingType)
+  Line   227 | TriggerServerEvent('vrp_aiems:server:RevivePlayer')
+
+File: baseevents/deathevents.lua
+--------------------------------
+  Line    43 | TriggerServerEvent('baseevents:onPlayerDied', killertype, { table.unpack(GetEntityCoords(ped)) })
+  Line    47 | TriggerServerEvent('baseevents:onPlayerKilled', killerid, {killertype=killertype, weaponhash = killerweapon, killerinveh=killerinvehicle, killervehseat=killervehicleseat, killervehname=killervehiclename, killerpos={table.unpack(GetEntityCoords(ped))}})
+  Line    58 | TriggerServerEvent('baseevents:onPlayerWasted', { table.unpack(GetEntityCoords(ped)) })
+
+File: baseevents/vehiclechecker.lua
+-----------------------------------
+  Line    19 | TriggerServerEvent('baseevents:enteringVehicle', vehicle, seat, GetDisplayNameFromVehicleModel(GetEntityModel(vehicle)), netId)
+  Line    22 | TriggerServerEvent('baseevents:enteringAborted')
+  Line    33 | TriggerServerEvent('baseevents:enteredVehicle', currentVehicle, currentSeat, GetDisplayNameFromVehicleModel(GetEntityModel(currentVehicle)), netId)
+  Line    41 | TriggerServerEvent('baseevents:leftVehicle', currentVehicle, currentSeat, GetDisplayNameFromVehicleModel(GetEntityModel(currentVehicle)), netId)
+
+File: Car-Music/client.lua
+--------------------------
+  Line    26 | TriggerServerEvent("royal_music:syncPlay", netId, data.url)
+
+File: chat/client/client.lua
+----------------------------
+  Line    73 | TriggerServerEvent('chat:init')
+
+File: cia-menu/client/client.lua
+--------------------------------
+  Line    89 | TriggerServerEvent('cia:checkPermission')
+  Line   140 | TriggerServerEvent('cia:changeName', input[1], input[2], input[3])
+  Line   170 | TriggerServerEvent('cia:changeLicense', input[1], input[2])
+  Line   210 | TriggerServerEvent('cia:changeGender', input[1], input[2])
+  Line   239 | TriggerServerEvent('cia:checkLicense', input[1])
+  Line   290 | TriggerServerEvent('cia:changeSlot', input[1], input[2])
+
+File: drc_wine/client/cl_Delivery.lua
+-------------------------------------
+  Line   412 | TriggerServerEvent("drc_wine:selling:pay", math.ceil(offerPrice), itemType, itemCount, label)
+
+File: drc_wine/client/cl_LabelShop.lua
+--------------------------------------
+  Line   100 | TriggerServerEvent("drc_wine:LabelShop:giveitems", data.item, data.price, amount)
+
+File: drc_wine/client/cl_Shop.lua
+---------------------------------
+  Line   101 | TriggerServerEvent("drc_wine:Shop:giveitems", data.item, data.price, amount)
+
+File: drc_wine/client/cl_Utils.lua
+----------------------------------
+  Line   168 | TriggerServerEvent("drc_wine:server:add", data.status, data.add)
+  Line   196 | TriggerServerEvent("consumables:server:addHunger", QBCore.Functions.GetPlayerData().metadata["hunger"] + tonumber(data.add) / 10000)
+  Line   197 | TriggerServerEvent('hud:server:RelieveStress', math.random(2, 4))
+  Line   199 | TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + tonumber(data.add) / 10000)
+  Line   295 | TriggerServerEvent("drc_wine:server:OpenInventory", "stash"..stash, data.Weight, data.Slots)
+  Line   304 | TriggerServerEvent("inventory:server:OpenInventory", "stash", stash, {
+  Line   319 | TriggerServerEvent("inventory:server:OpenInventory", "stash", stash, {
+  Line   366 | TriggerServerEvent('qb-clothes:loadPlayerSkin')
+  Line   507 | TriggerServerEvent('esx_skin:save', skin)
+  Line   522 | TriggerServerEvent("InteractSound_SV:PlayOnSource", "Clothes1", 0.4)
+
+File: drc_wine/client/cl_Wine.lua
+---------------------------------
+  Line     1 | local TriggerServerEvent = TriggerServerEvent
+  Line   445 | TriggerServerEvent("drc_wine:SetOccupied", "sink", true, data.place)
+  Line   496 | TriggerServerEvent("drc_wine:giveitems", data.menu, data.glass)
+  Line   497 | TriggerServerEvent("drc_wine:SetOccupied", "sink", false, data.place)
+  Line   525 | TriggerServerEvent("drc_wine:SetOccupied", "labeling", true, data.place)
+  Line   556 | TriggerServerEvent("drc_wine:giveitems", data.menu, data.glass)
+  Line   557 | TriggerServerEvent("drc_wine:SetOccupied", "labeling", false, data.place)
+  Line   605 | TriggerServerEvent("drc_wine:SetOccupied", "gather", true, data.gather, data.location, gatherLocation.cooldown)
+  Line   635 | TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 5.0, "scissors", 0.35)
+  Line   645 | TriggerServerEvent("drc_wine:giveitems", data.menu, data.gather)
+  Line   663 | TriggerServerEvent("drc_wine:SetOccupied", "gather", true, data.gather, data.location, gatherLocation.cooldown)
+  Line   712 | TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 5.0, "scissors", 0.35)
+  Line   763 | TriggerServerEvent("drc_wine:Gather", data.menu, data.gather)
+  Line   816 | TriggerServerEvent("drc_wine:SetOccupied", "prepare", true, data.prepare)
+  Line   839 | TriggerServerEvent("drc_wine:giveitems", data.menu, data.wine)
+  Line   840 | TriggerServerEvent("drc_wine:SetOccupied", "prepare", false, data.prepare)
+  Line   854 | TriggerServerEvent("drc_wine:SetOccupied", "prepare", true, data.prepare)
+  Line   882 | TriggerServerEvent("drc_wine:SetOccupied", "prepare", false, data.prepare)
+  Line   905 | TriggerServerEvent("drc_wine:giveitems", data.menu, wineId)
+  Line   934 | TriggerServerEvent("drc_wine:SetOccupied", "press", true, data.press)
+  Line   940 | TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 5.0, "pressing", 0.35)
+  Line   967 | TriggerServerEvent("drc_wine:giveitems", data.menu, data.wine)
+  Line   968 | TriggerServerEvent("drc_wine:SetOccupied", "press", false, data.press)
+  Line   992 | TriggerServerEvent("drc_wine:SetOccupied", "fill", true, data.fill)
+  Line  1028 | TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 5.0, "filling", 0.35)
+  Line  1036 | TriggerServerEvent("drc_wine:giveitems", data.menu, data.wine)
+  Line  1037 | TriggerServerEvent("drc_wine:SetOccupied", "fill", false, data.fill)
+  Line  1054 | TriggerServerEvent("drc_wine:SetOccupied", "sink", true, cleanData.place)
+  Line  1091 | TriggerServerEvent("drc_wine:SetOccupied", "sink", false, cleanData.place)
+  Line  1383 | TriggerServerEvent("drc_wine:WineBottle", { item = itemData.itemname })
+  Line  1465 | TriggerServerEvent("drc_wine:WineCosumables", {
+  Line  1485 | TriggerServerEvent("drc_wine:WineBottle", { item = data.itemname })
+
+File: illenium-appearance/client/client.lua
+-------------------------------------------
+  Line     6 | TriggerServerEvent("illenium-appearance:server:syncUniform", nil)
+  Line    31 | TriggerServerEvent("illenium-appearance:server:syncUniform", nil) -- Uniform doesn't exist anymore
+  Line    47 | TriggerServerEvent("illenium-appearance:server:syncUniform", nil) -- Uniform doesn't exist anymore
+  Line   113 | TriggerServerEvent("illenium-appearance:server:ChangeRoutingBucket")
+  Line   116 | TriggerServerEvent("illenium-appearance:server:saveAppearance", appearance)
+  Line   124 | TriggerServerEvent("illenium-appearance:server:ResetRoutingBucket")
+  Line   143 | TriggerServerEvent("illenium-appearance:server:chargeCustomer", shopType)
+  Line   145 | TriggerServerEvent("illenium-appearance:server:saveAppearance", appearance)
+  Line   284 | TriggerServerEvent("illenium-appearance:server:saveOutfit", outfitName, pedModel, pedComponents, pedProps)
+  Line   315 | TriggerServerEvent("illenium-appearance:server:updateOutfit", outfitID, pedModel, pedComponents, pedProps)
+  Line   507 | TriggerServerEvent("illenium-appearance:server:saveManagementOutfit", outfitData)
+  Line   670 | TriggerServerEvent("illenium-appearance:server:syncUniform", {
+  Line   676 | TriggerServerEvent("illenium-appearance:server:saveAppearance", appearance)
+  Line   683 | TriggerServerEvent("illenium-appearance:server:deleteManagementOutfit", id)
+  Line   693 | TriggerServerEvent("illenium-appearance:server:deleteOutfit", id)
+
+File: illenium-appearance/client/framework/qb/compatibility.lua
+---------------------------------------------------------------
+  Line    29 | TriggerServerEvent("illenium-appearance:server:resetOutfitCache")
+
+File: illenium-appearance/client/framework/qb/migrate.lua
+---------------------------------------------------------
+  Line   189 | TriggerServerEvent("illenium-appearance:server:migrate-qb-clothing-skin", playerSkin.citizenid, appearance)
+
+File: illenium-appearance/client/outfits.lua
+--------------------------------------------
+  Line   125 | TriggerServerEvent("illenium-appearance:server:syncUniform", {
+
+File: jg-advancedgarages/framework/cl-functions.lua
+---------------------------------------------------
+  Line   298 | TriggerServerEvent("jg-advancedgarages:server:save-ti-fuel-type", Framework.Client.GetPlate(vehicle), type)
+  Line   346 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+  Line   357 | TriggerServerEvent("okokGarage:GiveKeys", plate)
+  Line   363 | TriggerServerEvent("t1ger_keys:updateOwnedKeys", plate, true)
+  Line   394 | TriggerServerEvent("t1ger_keys:updateOwnedKeys", plate, false)
+
+File: jg-advancedgarages/framework/esx/cl-esx.lua
+-------------------------------------------------
+  Line    35 | TriggerServerEvent("jg-advancedgarages:server:set-vehicle-owned", vehicleProps)
+
+File: jg-dealerships/client/cl-direct-sales.lua
+-----------------------------------------------
+  Line   177 | TriggerServerEvent("jg-dealerships:server:notify-other-player", dealerPlayerId, "Customer is in the showroom! Wait for them to come back, and try again", "error")
+
+File: jg-dealerships/client/cl-employees.lua
+--------------------------------------------
+  Line    24 | TriggerServerEvent("jg-dealerships:server:hire-employee", data)
+  Line    29 | TriggerServerEvent("jg-dealerships:server:employee-hire-rejected", data.requesterId, data.playerName)
+  Line    42 | TriggerServerEvent("jg-dealerships:server:request-hire-employee", data)
+  Line    48 | TriggerServerEvent("jg-dealerships:server:fire-employee", data.identifier, data.dealershipId)
+  Line    54 | TriggerServerEvent("jg-dealerships:server:update-employee-role", data.identifier, data.dealershipId, data.newRole)
+
+File: jg-dealerships/client/cl-purchase.lua
+-------------------------------------------
+  Line    63 | TriggerServerEvent("jg-dealerships:server:update-purchased-vehicle-props", purchaseData.purchaseType, purchaseData.society, plate, props)
+  Line    66 | TriggerServerEvent("jg-dealerships:server:purchase-vehicle:config", netId, plate, purchaseData.purchaseType, price, purchaseData.paymentMethod, purchaseData.finance)
+  Line    70 | TriggerServerEvent("jg-advancedgarages:server:register-vehicle-outside", plate, netId)
+  Line    71 | TriggerServerEvent("jg-advancedgarages:server:dealerships-send-to-default-garage", vehicleType, plate)
+
+File: jg-dealerships/client/cl-test-drive.lua
+---------------------------------------------
+  Line   175 | TriggerServerEvent("jg-dealerships:server:exit-bucket")
+
+File: jg-dealerships/framework/cl-functions.lua
+-----------------------------------------------
+  Line   243 | TriggerServerEvent("jg-dealerships:server:save-ti-fuel-type", Framework.Client.GetPlate(vehicle), type)
+  Line   282 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+  Line   293 | TriggerServerEvent("okokGarage:GiveKeys", plate)
+  Line   295 | TriggerServerEvent("t1ger_keys:updateOwnedKeys", plate, true)
+  Line   329 | TriggerServerEvent("t1ger_keys:updateOwnedKeys", plate, false)
+
+File: jim-mechanic/client/locfunctions.lua
+------------------------------------------
+  Line    44 | --TriggerServerEvent(getScript()..":server:setOnDuty", PlayerJob.name, PlayerJob.onduty)
+  Line    49 | --TriggerServerEvent(getScript()..":server:setOnDuty", oldJobName, false)
+
+File: jim-mechanic/client/makeLocs.lua
+--------------------------------------
+  Line   319 | TriggerServerEvent(getScript()..":server:makeOXStash",
+
+File: jim-mechanic/modules/cosmetics/main.lua
+---------------------------------------------
+  Line   326 | TriggerServerEvent(getScript()..":server:TestHorn", VehToNet(data.veh))
+  Line   390 | TriggerServerEvent(getScript()..":server:TestHorn", VehToNet(data.veh))
+
+File: jim-mechanic/modules/emsBench/quickrepair.lua
+---------------------------------------------------
+  Line    49 | TriggerServerEvent(getScript()..":server:fixAllPart", VehToNet(vehicle))
+
+File: jim-mechanic/modules/extra/customDamages.lua
+--------------------------------------------------
+  Line     2 | TriggerServerEvent(getScript()..":server:RequestFullStatusList")
+  Line    44 | TriggerServerEvent(getScript()..":server:updateVehicleStatus", VehToNet(vehicle), part, level)
+  Line   229 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   271 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/extra/inCarLogic.lua
+-----------------------------------------------
+  Line    47 | TriggerServerEvent(getScript()..":server:updateVehicle", mods, plate)
+  Line    57 | TriggerServerEvent(getScript()..":server:setNitrous",
+  Line    70 | TriggerServerEvent(getScript()..":server:UpdateDrivingDistance", plate, math.round(DistAdd))
+  Line   143 | TriggerServerEvent(getScript()..":server:checkWax", VehToNet(vehIsIn))
+  Line   282 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(veh), { loadNitrous = true })
+  Line   443 | TriggerServerEvent(getScript()..":server:playSound",
+  Line   649 | TriggerServerEvent(getScript()..":server:playSound", "rapell", VehToNet(veh), nil, 0.75)
+  Line   688 | TriggerServerEvent(getScript()..":server:playSound", (seatbeltOn and "seatbelt" or "seatbeltoff"), VehToNet(veh), nil, 0.35)
+
+File: jim-mechanic/modules/extra/repairItems.lua
+------------------------------------------------
+  Line   285 | TriggerServerEvent(getScript() .. ":server:fixEverything", Helper.getTrimmedPlate(vehicle),
+  Line   334 | TriggerServerEvent(getScript() .. ":server:fixEverything", Helper.getTrimmedPlate(vehicle),
+
+File: jim-mechanic/modules/modification/antilag.lua
+---------------------------------------------------
+  Line    93 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   123 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/armour.lua
+--------------------------------------------------
+  Line    92 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   124 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/bProofTires.lua
+-------------------------------------------------------
+  Line    84 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   127 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/brakes.lua
+--------------------------------------------------
+  Line    88 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   128 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/driftTires.lua
+------------------------------------------------------
+  Line   120 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/engines.lua
+---------------------------------------------------
+  Line    92 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   135 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/harness.lua
+---------------------------------------------------
+  Line    95 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   123 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/manualtransmission.lua
+--------------------------------------------------------------
+  Line    99 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   127 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/suspension.lua
+------------------------------------------------------
+  Line    90 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   132 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/transmission.lua
+--------------------------------------------------------
+  Line    92 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   135 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/turbo.lua
+-------------------------------------------------
+  Line    92 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   123 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/underglow.lua
+-----------------------------------------------------
+  Line    91 | TriggerServerEvent(getScript()..":server:DupeWarn",
+  Line   137 | TriggerServerEvent(getScript()..":server:DupeWarn",
+
+File: jim-mechanic/modules/modification/xenon.lua
+-------------------------------------------------
+  Line   134 | TriggerServerEvent(getScript()..":server:ChangeXenonColour", VehToNet(data.vehicle), nil)
+  Line   138 | TriggerServerEvent(getScript()..":server:ChangeXenonColour", VehToNet(data.vehicle), { r = data.R, g = data.G, b = data.B })
+
+File: jim-mechanic/modules/nitrous/colourChange.lua
+---------------------------------------------------
+  Line    69 | TriggerServerEvent(getScript()..":server:ChangeNosColour", VehToNet(vehicle), data)
+  Line    83 | TriggerServerEvent(getScript()..":server:SyncPurge", VehToNet(vehicle), true, 0.9)
+  Line    86 | TriggerServerEvent(getScript()..":server:SyncPurge", VehToNet(vehicle), false, nil)
+
+File: jim-mechanic/modules/nitrous/fill.lua
+-------------------------------------------
+  Line    60 | TriggerServerEvent(getScript()..":chargeCash", Config.NOS.NosRefillCharge, data.society)
+  Line   113 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(vehicle), { loadNitrous = true })
+  Line   199 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(vehicle), { unloadNitrous = true })
+
+File: jim-mechanic/modules/nitrous/_main.lua
+--------------------------------------------
+  Line   180 | TriggerServerEvent(getScript()..":server:SyncPurge", VehToNet(CurrentVehicle), true, purgeSize)
+  Line   200 | TriggerServerEvent(getScript()..":server:SyncTrail", VehToNet(CurrentVehicle), true)
+  Line   203 | TriggerServerEvent(getScript()..":server:SyncFlame", VehToNet(CurrentVehicle), true, boostLevel)
+  Line   245 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(CurrentVehicle), { unloadNitrous = true })
+  Line   252 | TriggerServerEvent(getScript()..":server:SyncTrail", VehToNet(CurrentVehicle), false)
+  Line   255 | TriggerServerEvent(getScript()..":server:SyncFlame", VehToNet(CurrentVehicle), false, nil, nil)
+  Line   312 | TriggerServerEvent(getScript().."server:setNitrous", VehToNet(CurrentVehicle), { unloadNitrous = true })
+  Line   318 | TriggerServerEvent(getScript()..":server:SyncTrail", VehToNet(CurrentVehicle), false)
+  Line   327 | TriggerServerEvent(getScript()..":server:SyncFlame", VehToNet(CurrentVehicle), true, nil, nil)
+  Line   329 | TriggerServerEvent(getScript()..":server:SyncFlame", VehToNet(CurrentVehicle), false, nil, nil)
+  Line   354 | TriggerServerEvent(getScript()..":server:SyncPurge", VehToNet(CurrentVehicle), false, nil)
+  Line   360 | TriggerServerEvent(getScript()..":server:SyncFlame", VehToNet(CurrentVehicle), false, nil, nil)
+  Line   378 | TriggerServerEvent(getScript()..":server:SyncTrail", VehToNet(CurrentVehicle), false)
+  Line   385 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(CurrentVehicle), { updateNitrous = true, level = VehicleNitrous[Plate].level })
+  Line   432 | TriggerServerEvent(getScript()..":server:SyncPurge", VehToNet(veh), false, nil)
+  Line   434 | TriggerServerEvent(getScript()..":server:SyncFlame", VehToNet(veh), false, nil, nil)
+  Line   437 | TriggerServerEvent(getScript()..":server:SyncTrail", VehToNet(veh), false)
+  Line   445 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(veh), { updateNitrous = true, level = VehicleNitrous[plate].level })
+
+File: jim-mechanic/modules/previews/printdifferences.lua
+--------------------------------------------------------
+  Line   261 | TriggerServerEvent(getScript()..":server:discordLog", {
+
+File: jim-mechanic/modules/previews/rgbpreview.lua
+--------------------------------------------------
+  Line    56 | TriggerServerEvent(getScript()..":server:preview", true, VehToNet(vehicle), Helper.getTrimmedPlate(vehicle))
+  Line   153 | TriggerServerEvent(getScript()..":server:preview", false)
+
+File: jim-mechanic/modules/previews/_main.lua
+---------------------------------------------
+  Line    48 | TriggerServerEvent(getScript()..":server:preview", true, VehToNet(vehicle), plate)
+  Line    63 | TriggerServerEvent("cd_garage:RemovePersistentVehicles", exports["cd_garage"]:GetPlate(vehicle))
+  Line    65 | TriggerServerEvent(getScript()..":server:changePlate", VehToNet(vehicle), "PREVIEWZ", true)
+  Line    89 | TriggerServerEvent(getScript()..":server:preview", false)
+  Line   100 | TriggerServerEvent(getScript()..":server:changePlate", VehToNet(vehicle), currentPlate)
+  Line   102 | TriggerServerEvent("cd_garage:AddPersistentVehicles", exports["cd_garage"]:GetPlate(vehicle), ensureNetToVeh(vehicle))
+
+File: jim-mechanic/modules/repairs/manualrepair.lua
+---------------------------------------------------
+  Line   195 | TriggerServerEvent(getScript()..":chargeCash", data.cost, data.society)
+  Line   203 | TriggerServerEvent(getScript()..":server:fixAllPart", VehToNet(vehicle))
+  Line   284 | TriggerServerEvent(getScript()..":server:fixAllPart", VehToNet(vehicle))
+  Line   292 | TriggerServerEvent(getScript()..":chargeCash", data.cost, data.society)
+
+File: jim-mechanic/modules/repairs/repair.lua
+---------------------------------------------
+  Line   677 | TriggerServerEvent(getScript()..":server:stashRemoveItem", stashItems, stashName, data.cost)
+
+File: jim-mechanic/shared/adminCustoms.lua
+------------------------------------------
+  Line    63 | TriggerServerEvent(getScript()..":server:SetDrivingDistance", carMeta.plate, mileage)
+  Line   254 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(vehicle), { unloadNitrous = true })
+  Line   257 | TriggerServerEvent(getScript()..":server:setNitrous", VehToNet(vehicle), { loadNitrous = true })
+  Line   594 | TriggerServerEvent(getScript()..":server:TestHorn", VehToNet(vehicle))
+
+File: jim-mechanic/shared/carLifts.lua
+--------------------------------------
+  Line   133 | TriggerServerEvent(getScript() .. ":server:toggleLift", liftName, direction)
+
+File: jim-mechanic/shared/encShared.lua
+---------------------------------------
+  Line   218 | TriggerServerEvent(getScript() .. ":server:saveStatus", data, plate)
+  Line   258 | TriggerServerEvent(getScript() .. ":server:updateDefVehStats", plate, defVehStats[plate])
+
+File: jim-mechanic/shared/helpers.lua
+-------------------------------------
+  Line   364 | TriggerServerEvent(getScript()..":server:updateVehicle", mods, trim(plate))
+  Line   368 | TriggerServerEvent(getScript()..":server:updateCar", VehToNet(vehicle), mods)
+
+File: jim-mechanic/shared/platechange.lua
+-----------------------------------------
+  Line    86 | TriggerServerEvent(getScript()..":server:setPlate", {
+  Line   156 | TriggerServerEvent(getScript()..":server:ChangeXenonColour", data.vehicle, { r = xenonR, g = xenonG, b = xenonB })
+
+File: jim-mining/client/client.lua
+----------------------------------
+  Line   439 | TriggerServerEvent(getScript()..":Reward", { mine = true, cost = nil, setReward = data.setReward })
+  Line   480 | TriggerServerEvent(getScript()..":Reward", { mine = true, cost = nil, setReward = data.setReward })
+  Line   542 | TriggerServerEvent(getScript()..":Reward", { mine = true, cost = nil, setReward = data.setReward })
+  Line   593 | TriggerServerEvent(getScript()..":Reward", { crack = true, cost = cost })
+  Line   647 | TriggerServerEvent(getScript()..":Reward", { wash = true, cost = cost })
+  Line   681 | TriggerServerEvent(getScript()..":Reward", { pan = true, cost = nil })
+
+File: jim-recycle/client/client.lua
+-----------------------------------
+  Line   287 | TriggerServerEvent("jim-recycle:Server:DoorCharge")
+  Line   485 | TriggerServerEvent("QBCore:ToggleDuty")
+  Line   620 | TriggerServerEvent("jim-recycle:Server:TradeItems", { item = data.item, amount = data.amount }, currentToken)
+
+File: jim-recycle/client/dumpsters.lua
+--------------------------------------
+  Line    82 | TriggerServerEvent("jim-recycle:server:getDumpsterReward")
+
+File: jim-recycle/client/scrap.lua
+----------------------------------
+  Line    80 | TriggerServerEvent("jim-recycle:server:getScrapReward")
+
+File: jim_bridge/clientFrameworkCache.lua
+-----------------------------------------
+  Line    22 | TriggerServerEvent("jim_bridge:requestCache")
+
+File: jim_bridge/shared/crafting.lua
+------------------------------------
+  Line   462 | TriggerServerEvent(getScript()..":Crafting:GetItem", data.item, data.craft, data.stashName, metadata, currentToken)
+  Line   500 | TriggerServerEvent(getScript()..":Crafting:GetItem", data.item, data.craft, data.stashName, metadata, currentToken)
+
+File: jim_bridge/shared/duifunctions.lua
+----------------------------------------
+  Line    82 | TriggerServerEvent(getScript()..":Server:ChangeDUI", data)
+
+File: jim_bridge/shared/helpers.lua
+-----------------------------------
+  Line   565 | TriggerServerEvent(getScript()..":server:sendlog", data)
+
+File: jim_bridge/shared/itemcontrol.lua
+---------------------------------------
+  Line   204 | TriggerServerEvent('core_inventory:server:openInventory', data.stash, 'stash')
+  Line   424 | TriggerServerEvent('codem-inventory:server:openstash', data.stash, data.slots, data.maxWeight, data.label)
+  Line   524 | TriggerServerEvent(getScript()..':server:openServerShop', name)
+  Line   536 | TriggerServerEvent(getScript()..':server:openServerStash', {
+  Line   667 | TriggerServerEvent(getScript()..':server:openServerShop', name)
+  Line   668 | TriggerServerEvent("inventory:server:OpenInventory", "shop", label, items)
+  Line   688 | TriggerServerEvent(getScript()..':server:openServerStash', {
+  Line   696 | TriggerServerEvent("inventory:server:OpenInventory", "stash", data.stash, {
+  Line   847 | TriggerServerEvent(getScript()..':server:openServerShop', name)
+  Line   848 | TriggerServerEvent("inventory:server:OpenInventory", "shop", label, items)
+  Line   871 | TriggerServerEvent(getScript()..':server:openServerStash', {
+  Line   879 | TriggerServerEvent("inventory:server:OpenInventory", "stash", data.stash, {
+  Line  1062 | TriggerServerEvent(getScript()..':server:openServerShop', name)
+  Line  1063 | TriggerServerEvent("inventory:server:OpenInventory", "shop", label, items)
+  Line  1086 | TriggerServerEvent(getScript()..':server:openServerStash', {
+  Line  1095 | TriggerServerEvent("inventory:server:OpenInventory", "stash", data.stash, {
+  Line  1231 | TriggerServerEvent(getScript()..':server:openServerShop', name)
+  Line  1249 | TriggerServerEvent(getScript()..':server:openServerStash', {
+  Line  1570 | TriggerServerEvent(getScript()..":server:toggleItem", true, item, amount, nil, info, nil, currentToken)
+  Line  1598 | TriggerServerEvent(getScript()..":server:toggleItem", false, item, amount, nil, nil, slot)
+  Line  1620 | --- TriggerServerEvent(getScript()..":server:toggleItem", true, "health_potion", 1)
+  Line  1769 | TriggerServerEvent(getScript()..":server:setItemMetaData", { item = data.item, slot = slot, metadata = metadata })
+  Line  1796 | TriggerServerEvent(getScript()..":server:setItemMetaData", { item = data.item, slot = slot, metadata = metadata })
+  Line  1842 | --- TriggerServerEvent("script:server:setItemMetaData", { item = "drill", slot = 5, metadata = { durability = 80 } })
+  Line  2290 | TriggerServerEvent("inventory:server:OpenInventory", "stash", data.stash, {
+  Line  2756 | TriggerServerEvent(getScript()..":Sellitems", data, token)
+  Line  2858 | TriggerServerEvent("jim-shops:ShopOpen", "shop", data.items.label, data.items)
+  Line  2894 | TriggerServerEvent(getScript()..':server:openServerShop', data.shop)
+  Line  2895 | TriggerServerEvent("inventory:server:OpenInventory", "shop", data.items.label, data.items)
+
+File: jim_bridge/shared/jobfunctions.lua
+----------------------------------------
+  Line    36 | TriggerServerEvent(getScript()..":registerESXSociety", isGang, group)
+  Line   173 | TriggerServerEvent("QBCore:ToggleDuty")
+  Line   180 | TriggerServerEvent("QBCore:ToggleDuty")
+  Line   187 | TriggerServerEvent("RSGCore:ToggleDuty")
+  Line   297 | TriggerServerEvent(getScript().."server:Urinal")
+  Line   309 | TriggerServerEvent(getScript().."server:Urinal")
+
+File: jim_bridge/shared/make/progressBars.lua
+---------------------------------------------
+  Line   299 | TriggerServerEvent(getScript()..":server:sharedProg:Start", data)
+  Line   323 | TriggerServerEvent(getScript().."server:sharedProg:cancel", storedPID)
+  Line   328 | TriggerServerEvent(getScript()..":clearAuthToken")
+  Line   331 | TriggerServerEvent(getScript()..":clearAuthToken")
+
+File: jim_bridge/shared/phones.lua
+----------------------------------
+  Line    47 | TriggerServerEvent(getScript()..":yflip:SendMail", mailData)
+  Line    65 | TriggerServerEvent(getScript()..":lbphone:SendMail", mailData)
+  Line    72 | TriggerServerEvent('qb-phone:server:sendNewMail', mailData)
+  Line   108 | TriggerServerEvent('qb-phone:server:sendNewMail', mailData)
+  Line   115 | TriggerServerEvent(getScript()..":jpr:SendMail", mailData)
+  Line   122 | TriggerServerEvent('qb-phone:server:sendNewMail', mailData)
+
+File: jim_bridge/shared/_authToken.lua
+--------------------------------------
+  Line   129 | TriggerServerEvent(getScript()..":clearAuthEventRequest")
+
+File: jim_bridge/shared/_eventDebug.lua
+---------------------------------------
+  Line    13 | local origTriggerServerEvent = TriggerServerEvent
+  Line    76 | function TriggerServerEvent(name, ...) -- Client side, trigger a server event
+  Line    90 | origTriggerServerEvent(name, ...)
+
+File: lb-phone/client/apps/custom.lua
+-------------------------------------
+  Line    21 | TriggerServerEvent("lb-phone:customApp", app)
+
+File: lb-phone/client/apps/default/camera.lua
+---------------------------------------------
+  Line   347 | TriggerServerEvent("phone:camera:setPeer", data.peerId)
+  Line   353 | TriggerServerEvent("phone:camera:endedRecording", recordingPeerId)
+
+File: lb-phone/client/apps/default/mail.lua
+-------------------------------------------
+  Line    67 | TriggerServerEvent(mailAction.event, data.id, mailAction.data)
+
+File: lb-phone/client/apps/default/messages.lua
+-----------------------------------------------
+  Line    27 | TriggerServerEvent("phone:messages:messageSent", data.number, data.content, data.attachments)
+
+File: lb-phone/client/apps/default/phone.lua
+--------------------------------------------
+  Line    30 | TriggerServerEvent("phone:logCall", currentCustomCall.number, duration)
+  Line   220 | TriggerServerEvent("phone:phone:toggleSpeaker", data.toggle)
+  Line   288 | TriggerServerEvent("phone:sound:stopSound")
+  Line   314 | TriggerServerEvent("phone:sound:stopSound")
+  Line   315 | TriggerServerEvent("phone:endCall")
+  Line   409 | TriggerServerEvent("phone:sound:stopSound")
+
+File: lb-phone/client/apps/framework/garage.lua
+-----------------------------------------------
+  Line   167 | TriggerServerEvent("jg-advancedgarages:server:register-vehicle-outside", plate, VehToNet(vehicle))
+
+File: lb-phone/client/apps/framework/home/qb-houses.lua
+-------------------------------------------------------
+  Line    23 | TriggerServerEvent("qb-houses:server:setHouses")
+  Line    68 | TriggerServerEvent("qb-houses:server:removeHouseKey", houseData.uniqueId, { citizenid = data.identifier, firstname = "", lastname = "" })
+  Line    79 | TriggerServerEvent("qb-houses:server:giveHouseKey", tonumber(data.source), houseData.uniqueId)
+  Line    95 | TriggerServerEvent("qb-houses:server:lockHouse", not house.locked, data.uniqueId)
+
+File: lb-phone/client/apps/framework/home/rtx_housing.lua
+---------------------------------------------------------
+  Line    55 | TriggerServerEvent("rtx_housing:Global:RemovePermission", houseData.uniqueId, data.identifier)
+  Line    61 | TriggerServerEvent("rtx_housing:Global:AddPermission", houseData.uniqueId, tonumber(data.source))
+  Line    65 | TriggerServerEvent("rtx_housing:Global:PropertyLockStatus", data.uniqueId)
+
+File: lb-phone/client/apps/framework/home/vms_housing.lua
+---------------------------------------------------------
+  Line    74 | TriggerServerEvent('vms_housing:sv:removeKey', houseData.uniqueId, data.identifier)
+  Line    80 | TriggerServerEvent('vms_housing:sv:buyKey', houseData.uniqueId, tonumber(data.source))
+  Line    81 | TriggerServerEvent('vms_housing:sv:giveKey', houseData.uniqueId, tonumber(data.source))
+
+File: lb-phone/client/apps/framework/services.lua
+-------------------------------------------------
+  Line    17 | TriggerServerEvent("phone:phone:disableCompanyCalls", true)
+  Line   128 | TriggerServerEvent("phone:phone:disableCompanyCalls", callsDisabled)
+  Line   227 | TriggerServerEvent("phone:phone:disableCompanyCalls", callsDisabled)
+
+File: lb-phone/client/apps/other/crypto.lua
+-------------------------------------------
+  Line   171 | TriggerServerEvent("phone:crypto:fetchCoins")
+  Line   175 | TriggerServerEvent("phone:crypto:setAppOpen", true)
+  Line   177 | TriggerServerEvent("phone:crypto:setAppOpen", false)
+
+File: lb-phone/client/apps/social/instagram.lua
+-----------------------------------------------
+  Line   107 | TriggerServerEvent("phone:instagram:startLive", data.id)
+  Line   149 | TriggerServerEvent("phone:instagram:sendLiveMessage", data.data)
+  Line   151 | TriggerServerEvent("phone:instagram:addCall", data.id)
+  Line   153 | TriggerServerEvent("phone:instagram:inviteLive", data.username)
+  Line   155 | TriggerServerEvent("phone:instagram:removeLive", data.username)
+
+File: lb-phone/client/apps/social/tiktok.lua
+--------------------------------------------
+  Line   129 | TriggerServerEvent("phone:tiktok:setViewed", data.id)
+  Line   173 | TriggerServerEvent("phone:tiktok:clearUnreadMessages", data.id)
+
+File: lb-phone/client/client.lua
+--------------------------------
+  Line   779 | TriggerServerEvent("phone:togglePhone")
+  Line   848 | TriggerServerEvent("phone:togglePhone", open)
+  Line  1063 | TriggerServerEvent("phone:setName", setupData.name)
+  Line  1064 | TriggerServerEvent("phone:togglePhone", phoneOpen)
+  Line  1065 | TriggerServerEvent("phone:finishedSetup", setupData)
+  Line  1093 | TriggerServerEvent("phone:setName", name)
+  Line  1437 | TriggerServerEvent("phone:toggleFlashlight", false)
+
+File: lb-phone/client/custom/frameworks/esx/services.lua
+--------------------------------------------------------
+  Line   134 | TriggerServerEvent("esx_society:depositMoney", ESX.PlayerData.job.name, amount)
+  Line   141 | TriggerServerEvent("esx_society:withdrawMoney", ESX.PlayerData.job.name, amount)
+  Line   212 | TriggerServerEvent("phone:services:toggleDuty", duty)
+
+File: lb-phone/client/custom/frameworks/qbox/services.lua
+---------------------------------------------------------
+  Line   120 | TriggerServerEvent("QBCore:ToggleDuty")
+
+File: lb-phone/client/custom/functions/animations.lua
+-----------------------------------------------------
+  Line   238 | TriggerServerEvent("phone:failedControl")
+  Line   244 | TriggerServerEvent("phone:failedControl")
+  Line   266 | TriggerServerEvent("phone:setPhoneObject", NetworkGetNetworkIdFromEntity(phoneObject))
+  Line   278 | TriggerServerEvent("phone:setPhoneObject", nil)
+
+File: lb-phone/client/custom/functions/multijob.lua
+---------------------------------------------------
+  Line    54 | TriggerServerEvent("ps-multijob:changeJob", job.job, job.grade)
+  Line    66 | TriggerServerEvent("ps-multijob:removeJob", job.job, job.grade)
+
+File: lb-phone/client/custom/functions/voice.lua
+------------------------------------------------
+  Line    34 | TriggerServerEvent("phone:voice:addToCall", callId)
+  Line    56 | TriggerServerEvent("phone:voice:removeFromCall", callId)
+  Line    76 | TriggerServerEvent("phone:phone:toggleMute", muted)
+  Line    81 | TriggerServerEvent("phone:voice:toggleSpeaker", enabled)
+
+File: lb-phone/client/misc/airshare.lua
+---------------------------------------
+  Line    59 | TriggerServerEvent("phone:airShare:interacted", data.source, data.device, true)
+  Line    62 | TriggerServerEvent("phone:airShare:interacted", data.source, data.device, false)
+
+File: lb-phone/client/misc/battery.lua
+--------------------------------------
+  Line    19 | TriggerServerEvent("phone:battery:setBattery", batteryLevel)
+
+File: lb-phone/client/misc/errors.lua
+-------------------------------------
+  Line     3 | TriggerServerEvent(
+
+File: lb-phone/client/misc/flashlight.lua
+-----------------------------------------
+  Line    14 | TriggerServerEvent("phone:toggleFlashlight", flashlightEnabled)
+
+File: lb-phone/client/misc/hearNearby.lua
+-----------------------------------------
+  Line    15 | TriggerServerEvent("phone:instagram:enteredLiveProximity", liveId)
+  Line    26 | TriggerServerEvent("phone:instagram:leftLiveProximity", liveId)
+  Line    37 | TriggerServerEvent("phone:instagram:leftLiveProximity", hostSource, true)
+  Line    55 | TriggerServerEvent("phone:phone:leftCallProximity", source)
+  Line    72 | TriggerServerEvent("phone:phone:enteredCallProximity", source)
+  Line   129 | TriggerServerEvent("phone:phone:leftCallProximity", source)
+
+File: lb-phone/client/misc/notifications.lua
+--------------------------------------------
+  Line    82 | TriggerServerEvent(button.event, button.data)
+
+File: lb-phone/client/misc/recordNearbyVoices.lua
+-------------------------------------------------
+  Line   127 | TriggerServerEvent("phone:setListeningPeerId", peerId)
+
+File: lb-phone/client/misc/security.lua
+---------------------------------------
+  Line   143 | TriggerServerEvent("phone:factoryReset")
+
+File: lb-phone/client/misc/sound.lua
+------------------------------------
+  Line   219 | TriggerServerEvent("phone:sound:playSound", targets, soundType, nativeSoundName, soundSet, audioBank)
+  Line   318 | TriggerServerEvent("phone:sound:stopSound")
+
+File: lb-phone/client/misc/webrtc.lua
+-------------------------------------
+  Line     5 | TriggerServerEvent("phone:webrtc:createdPeer", data.peerId)
+  Line     7 | TriggerServerEvent("phone:webrtc:deletedPeer", data.peerId)
+  Line     9 | TriggerServerEvent("phone:webrtc:signal", data.from, data.target, data.signalData)
+
+File: lb-phone/lib/client/registerCallbacks.lua
+-----------------------------------------------
+  Line    19 | TriggerServerEvent("lb-phone:cb:response", requestId, handler(table.unpack(params)))
+
+File: lb-phone/lib/client/triggerCallbacks.lua
+----------------------------------------------
+  Line    38 | TriggerServerEvent("lb-phone:cb:" .. event, requestId, ...)
+
+File: lb-tablet/client/apps/mail.lua
+------------------------------------
+  Line    49 | TriggerServerEvent(actionData.event, data.id, actionData.data)
+
+File: lb-tablet/client/client.lua
+---------------------------------
+  Line   292 | TriggerServerEvent("tablet:finishedSetup", settings)
+  Line   391 | TriggerServerEvent("tablet:toggleOpen", TabletOpen)
+
+File: lb-tablet/client/custom/animations.lua
+--------------------------------------------
+  Line    19 | TriggerServerEvent("tablet:deleteTabletObject")
+  Line    22 | TriggerServerEvent("tablet:setTabletObject")
+  Line    91 | TriggerServerEvent("tablet:failedControl")
+  Line    98 | TriggerServerEvent("tablet:setTabletObject", NetworkGetNetworkIdFromEntity(tabletEntity))
+
+File: lb-tablet/client/custom/debug.lua
+---------------------------------------
+  Line    45 | TriggerServerEvent("lb-tablet:addDispatch", policeData)
+  Line    46 | TriggerServerEvent("lb-tablet:addDispatch", ambulanceData)
+
+File: lb-tablet/client/custom/frameworks/esx.lua
+------------------------------------------------
+  Line    27 | TriggerServerEvent("lb-tablet:frameworkLoaded")
+  Line    48 | TriggerServerEvent("lb-tablet:frameworkLoaded")
+  Line   219 | TriggerServerEvent("esx_society:depositMoney", ESX.PlayerData.job.name, amount)
+  Line   232 | TriggerServerEvent("esx_society:withdrawMoney", ESX.PlayerData.job.name, amount)
+  Line   308 | TriggerServerEvent("tablet:services:toggleDuty")
+
+File: lb-tablet/client/custom/frameworks/qb.lua
+-----------------------------------------------
+  Line    13 | TriggerServerEvent("lb-tablet:frameworkLoaded")
+  Line    38 | TriggerServerEvent("lb-tablet:frameworkLoaded")
+  Line   205 | TriggerServerEvent("qb-bossmenu:server:depositMoney", amount)
+  Line   222 | TriggerServerEvent("qb-bossmenu:server:withdrawMoney", amount)
+  Line   235 | TriggerServerEvent("qb-bossmenu:server:HireEmployee", source)
+  Line   241 | TriggerServerEvent("qb-bossmenu:server:FireEmployee", citizenid)
+  Line   261 | TriggerServerEvent("qb-bossmenu:server:GradeUpdate", {
+  Line   271 | TriggerServerEvent("QBCore:ToggleDuty")
+
+File: lb-tablet/client/custom/frameworks/qbx.lua
+------------------------------------------------
+  Line    13 | TriggerServerEvent("lb-tablet:frameworkLoaded")
+  Line    38 | TriggerServerEvent("lb-tablet:frameworkLoaded")
+  Line   200 | TriggerServerEvent("QBCore:ToggleDuty")
+
+File: lb-tablet/client/custom/frameworks/standalone.lua
+-------------------------------------------------------
+  Line    11 | TriggerServerEvent("lb-tablet:frameworkLoaded")
+  Line    95 | TriggerServerEvent("tablet:services:toggleDuty")
+
+File: lb-tablet/client/custom/functions/baseDispatch.lua
+--------------------------------------------------------
+  Line   391 | TriggerServerEvent("lb-tablet:baseDispatch:deletePhoneObject")
+  Line   487 | TriggerServerEvent("lb-tablet:addBaseDispatch", action, {
+
+File: lb-tablet/client/custom/functions/dispatchCompatibility.lua
+-----------------------------------------------------------------
+  Line    62 | TriggerServerEvent("ps-dispatch:server:notify", dispatch)
+  Line   105 | TriggerServerEvent("ps-dispatch:server:notify", {
+
+File: lb-tablet/client/custom/functions/functions.lua
+-----------------------------------------------------
+  Line   160 | TriggerServerEvent("tablet:dispatch:respond", dispatch.id)
+
+File: lb-tablet/client/misc/airshare.lua
+----------------------------------------
+  Line    34 | TriggerServerEvent("tablet:airShare:interacted", A0_2.source, A0_2.device, true)
+  Line    36 | TriggerServerEvent("tablet:airShare:interacted", A0_2.source, A0_2.device, false)
+
+File: lb-tablet/client/misc/dispatch.lua
+----------------------------------------
+  Line   321 | TriggerServerEvent("lb-tablet:addDispatch", dispatch)
+
+File: lb-tablet/client/misc/errors.lua
+--------------------------------------
+  Line    12 | TriggerServerEvent("tablet:logError", errorMsg, stack, componentStack)
+
+File: lb-tablet/client/misc/flashlight.lua
+------------------------------------------
+  Line    16 | TriggerServerEvent("tablet:toggleFlashlight", flashlightEnabled)
+
+File: lb-tablet/client/misc/liveEdit.lua
+----------------------------------------
+  Line     8 | TriggerServerEvent("liveEdit:leaveDocument")
+  Line    10 | TriggerServerEvent("liveEdit:refreshAwareness", docId)
+  Line    14 | TriggerServerEvent("liveEdit:updateAwareness", docId, data.originClientId, data.state)
+  Line    17 | TriggerServerEvent("liveEdit:saveFullDocState", docId, data.fullState)
+
+File: lb-tablet/client/misc/notifications.lua
+---------------------------------------------
+  Line    32 | TriggerServerEvent(button.event, button.data)
+
+File: lb-tablet/client/misc/recordNearby.lua
+--------------------------------------------
+  Line   121 | TriggerServerEvent("tablet:setListeningPeerId", peerId)
+
+File: lb-tablet/lib/client/registerCallbacks.lua
+------------------------------------------------
+  Line    14 | TriggerServerEvent("lb-tablet:cb:response", requestId, handler(table.unpack(params)))
+
+File: lb-tablet/lib/client/triggerCallbacks.lua
+-----------------------------------------------
+  Line    28 | TriggerServerEvent("lb-tablet:cb:" .. event, requestId, ...)
+
+File: lunar_heistcontracts/client/contracts/boosting.lua
+--------------------------------------------------------
+  Line   116 | TriggerServerEvent("lunar_contracts:boosting:signalHacked", contractIndex)
+  Line   159 | TriggerServerEvent("lunar_contracts:boosting:lockpicked", contractIndex)
+  Line   234 | TriggerServerEvent("lunar_contracts:cargo:removeTracker", contractIndex)
+  Line   279 | TriggerServerEvent("lunar_contracts:boosting:deliverVehicle", contractIndex)
+  Line   383 | TriggerServerEvent("lunar_contracts:boosting:spawnVehicle", ActiveContract.contractIndex)
+
+File: lunar_heistcontracts/client/contracts/cargo.lua
+-----------------------------------------------------
+  Line    75 | TriggerServerEvent("lunar_contracts:cargo:cancelSync")
+  Line   195 | TriggerServerEvent("lunar_contracts:cargo:lootGuard", locationIndex, netId)
+  Line   424 | TriggerServerEvent("lunar_contracts:cargo:syncContainer",
+  Line   466 | TriggerServerEvent("lunar_contracts:cargo:takeLoot", contractId, lootIndex)
+
+File: lunar_heistcontracts/client/contracts/cashexchange.lua
+------------------------------------------------------------
+  Line   149 | TriggerServerEvent("lunar_contracts:cashexchange:disableSmartLock", currentLocationIndex)
+  Line   176 | TriggerServerEvent("lunar_contracts:cashexchange:unlockOtherDoors", currentLocationIndex)
+  Line   253 | TriggerServerEvent("lunar_contracts:cashexchange:unlockVault", currentLocationIndex)
+
+File: lunar_heistcontracts/client/contracts/house.lua
+-----------------------------------------------------
+  Line   438 | TriggerServerEvent("lunar_contracts:house:lockpicked", contractIndex)
+  Line   514 | TriggerServerEvent("lunar_contracts:house:hackedKeypad", contractIndex)
+  Line   595 | TriggerServerEvent("lunar_contracts:house:stealPainting", contractIndex, paintingIndex)
+  Line   709 | TriggerServerEvent("lunar_contracts:house:stealDisplayCase", contractIndex)
+  Line   796 | TriggerServerEvent("lunar_contracts:house:takeLoot", contractIndex, lootIndex)
+  Line   804 | TriggerServerEvent("lunar_contracts:house:takeLoot", contractIndex, lootIndex)
+  Line   812 | TriggerServerEvent("lunar_contracts:house:takeLoot", contractIndex, lootIndex)
+  Line   967 | TriggerServerEvent("lunar_contracts:house:entered", contractIndex, locationIndex)
+  Line  1032 | TriggerServerEvent("lunar_contracts:house:alarm", locationIndex)
+  Line  1080 | TriggerServerEvent("lunar_contracts:house:updateAlertLevel", locationIndex, currentAlertLevel)
+  Line  1131 | TriggerServerEvent("lunar_contracts:house:exited", contractIndex)
+  Line  1676 | TriggerServerEvent("lunar_contracts:house:lootGuard", locationIndex, guardNetId)
+
+File: lunar_heistcontracts/client/contracts/laundromat.lua
+----------------------------------------------------------
+  Line   125 | TriggerServerEvent("lunar_contracts:laundromat:cutGeneratorPower")
+  Line   149 | TriggerServerEvent("lunar_contracts:laundromat:takeLoot", lootIndex)
+  Line   181 | TriggerServerEvent("lunar_contracts:laundromat:unlockOfficeDoor")
+  Line   198 | TriggerServerEvent("lunar_contracts:laundromat:openSafe")
+  Line   291 | TriggerServerEvent("lunar_contracts:laundromat:openSafe")
+
+File: lunar_heistcontracts/client/loot.lua
+------------------------------------------
+  Line   284 | TriggerServerEvent("lunar_contracts:loot:stopTaking", contractIndex, locationIndex, progress)
+  Line   431 | TriggerServerEvent("lunar_contracts:loot:stopTaking", contractIndex, locationIndex, progress)
+
+File: lunar_heistcontracts/client/main.lua
+------------------------------------------
+  Line   199 | TriggerServerEvent("lunar_contracts:resolveInvite", contractIndex, accepted)
+  Line   286 | TriggerServerEvent("lunar_contracts:heistCancelledByPolice", key)
+
+File: lunar_heistcontracts/client/occupied.lua
+----------------------------------------------
+  Line    26 | TriggerServerEvent("lunar_contracts:freeOccupiedSpot", currentSpotId)
+
+File: lunar_heistcontracts/client/ui.lua
+----------------------------------------
+  Line   253 | TriggerServerEvent("lunar_contracts:kickMember", contractIndex, identifier)
+
+File: lusty94_smoking/client/smoking_client.lua
+-----------------------------------------------
+  Line    52 | TriggerServerEvent('lusty94_smoking:server:returnItems', item.returned, item.amountReturned)
+  Line    55 | TriggerServerEvent('hud:server:RelieveStress', item.stress)
+  Line    64 | TriggerServerEvent('lusty94_smoking:server:UseVapeJuice') -- triggers chance to remove vape juice on use
+  Line    66 | TriggerServerEvent('lusty94_smoking:server:UseItem', itemName) -- normal item removal
+  Line   126 | TriggerServerEvent('lusty94_smoking:server:openShop')
+
+File: mka-lasers/client/creation.lua
+------------------------------------
+  Line    27 | TriggerServerEvent("mka-lasers:save", laser)
+
+File: mm_radio/client/event.lua
+-------------------------------
+  Line     6 | TriggerServerEvent('mm_radio:server:createdefaultjammer')
+  Line    63 | TriggerServerEvent('mm_radio:server:spawnobject', {
+  Line   208 | TriggerServerEvent('mm_radio:server:rechargeBattery')
+  Line   228 | TriggerServerEvent('mm_radio:server:createdefaultjammer')
+
+File: mm_radio/client/function.lua
+----------------------------------
+  Line   102 | TriggerServerEvent('mm_radio:server:removeFromRadioChannel', self.RadioChannel)
+  Line   110 | TriggerServerEvent('mm_radio:server:addToRadioChannel', self.RadioChannel, self.userData[self.identifier].name)
+  Line   141 | TriggerServerEvent('mm_radio:server:removeFromRadioChannel', self.RadioChannel)
+  Line   226 | TriggerServerEvent('mm_radio:server:togglejammer', Radio.jammer[i].id)
+  Line   236 | TriggerServerEvent('mm_radio:server:removejammer', Radio.jammer[i].id, isDamaged)
+  Line   258 | TriggerServerEvent('mm_radio:server:changeJammerRange', Radio.jammer[i].id, input[1])
+  Line   281 | TriggerServerEvent('mm_radio:server:removeallowedchannel', Radio.jammer[i].id, Radio.jammer[i].allowedChannels)
+  Line   296 | TriggerServerEvent('mm_radio:server:addallowedchannel', Radio.jammer[i].id, Radio.jammer[i].allowedChannels)
+  Line   497 | TriggerServerEvent('mm_radio:server:consumeBattery', Radio.batteryData)
+
+File: mm_radio/client/nui.lua
+-----------------------------
+  Line   124 | TriggerServerEvent('mm_radio:server:addToRadioChannel', Radio.RadioChannel, data.name)
+
+File: monitor/resource/cl_logger.lua
+------------------------------------
+  Line   337 | TriggerServerEvent('txsv:logger:deathEvent', killer, deathReason)
+
+File: monitor/resource/cl_main.lua
+----------------------------------
+  Line    12 | TriggerServerEvent('txsv:req:serverCtx')
+  Line    78 | TriggerServerEvent('txsv:ackWarning', actionId)
+  Line   111 | TriggerServerEvent('txsv:startedWalking')
+
+File: monitor/resource/cl_playerlist.lua
+----------------------------------------
+  Line   188 | TriggerServerEvent('txsv:req:plist:getDetailed', requirePlayerNames)
+  Line   196 | --     TriggerServerEvent('txsv:req:plist:getDetailed')
+
+File: monitor/resource/menu/client/cl_base.lua
+----------------------------------------------
+  Line    93 | TriggerServerEvent('txsv:checkIfAdmin')
+  Line   138 | TriggerServerEvent('txsv:checkIfAdmin')
+
+File: monitor/resource/menu/client/cl_freeze.lua
+------------------------------------------------
+  Line    22 | TriggerServerEvent('txsv:req:freezePlayer', targetPlayerId)
+
+File: monitor/resource/menu/client/cl_main_page.lua
+---------------------------------------------------
+  Line    14 | TriggerServerEvent('txsv:req:tpToCoords', data.x + 0.0, data.y + 0.0, data.z + 0.0)
+  Line    29 | TriggerServerEvent('txsv:req:tpToWaypoint')
+  Line    44 | TriggerServerEvent('txsv:req:tpToCoords', lastTpCoords.x, lastTpCoords.y, lastTpCoords.z)
+  Line    61 | TriggerServerEvent('txsv:req:tpToPlayer', tonumber(data.id))
+  Line    66 | TriggerServerEvent('txsv:req:bringPlayer', tonumber(data.id))
+  Line    80 | TriggerServerEvent('txsv:req:clearArea', radius)
+  Line   102 | TriggerServerEvent('txsv:req:healPlayer', tonumber(data.id))
+  Line   114 | TriggerServerEvent('txsv:req:healMyself')
+  Line   127 | TriggerServerEvent('txsv:req:healEveryone')
+  Line   133 | TriggerServerEvent('txsv:req:sendAnnouncement', data.message)
+
+File: monitor/resource/menu/client/cl_player_ids.lua
+----------------------------------------------------
+  Line   195 | TriggerServerEvent('txsv:req:showPlayerIDs', not isPlayerIdsEnabled)
+
+File: monitor/resource/menu/client/cl_player_mode.lua
+-----------------------------------------------------
+  Line   240 | TriggerServerEvent('txsv:req:changePlayerMode', mode, nearbyPlayers)
+
+File: monitor/resource/menu/client/cl_ptfx.lua
+----------------------------------------------
+  Line   130 | --             TriggerServerEvent('txsv:req:changePlayerMode', 'none', nearbyPlayers)
+
+File: monitor/resource/menu/client/cl_spectate.lua
+--------------------------------------------------
+  Line   122 | TriggerServerEvent('txsv:req:spectate:end')
+  Line   177 | TriggerServerEvent('txsv:req:spectate:cycle', storedTargetServerId, isNext)
+  Line   255 | TriggerServerEvent('txsv:req:spectate:start', tonumber(data.id))
+
+File: monitor/resource/menu/client/cl_trollactions.lua
+------------------------------------------------------
+  Line   154 | TriggerServerEvent('txsv:req:troll:setDrunk', tonumber(data.id))
+  Line   159 | TriggerServerEvent('txsv:req:troll:setOnFire', tonumber(data.id))
+  Line   164 | TriggerServerEvent('txsv:req:troll:wildAttack', tonumber(data.id))
+
+File: monitor/resource/menu/client/cl_vehicle.lua
+-------------------------------------------------
+  Line    92 | TriggerServerEvent('txsv:req:vehicle:spawn:fivem', model, modelType)
+  Line   104 | TriggerServerEvent('txsv:req:vehicle:spawn:redm', model)
+  Line   156 | TriggerServerEvent("txsv:req:vehicle:delete", vehNetId)
+  Line   174 | TriggerServerEvent('txsv:req:vehicle:fix')
+  Line   192 | TriggerServerEvent('txsv:req:vehicle:boost')
+
+File: monitor/resource/menu/client/cl_webpipe.lua
+-------------------------------------------------
+  Line    71 | TriggerServerEvent('txsv:webpipe:req', id, method, path, headers, body or '')
+
+File: oxmysql/ui.lua
+--------------------
+  Line    15 | TriggerServerEvent('oxmysql:fetchResource', data)
+
+File: ox_doorlock/client/main.lua
+---------------------------------
+  Line   283 | TriggerServerEvent('ox_doorlock:setState', ClosestDoor.id, ClosestDoor.state == 1 and 0 or 1)
+
+File: ox_doorlock/client/utils.lua
+----------------------------------
+  Line    59 | TriggerServerEvent('ox_doorlock:setState', door.id, door.state == 1 and 0 or 1, true)
+  Line    63 | TriggerServerEvent('ox_doorlock:breakLockpick')
+  Line   210 | TriggerServerEvent('ox_doorlock:editDoorlock', data.id or false, data)
+  Line   216 | TriggerServerEvent('ox_doorlock:editDoorlock', id)
+  Line   222 | TriggerServerEvent('ox_doorlock:teleportToDoor', id)
+
+File: ox_fuel/client/fuel.lua
+-----------------------------
+  Line    17 | if replicate and NetworkGetEntityIsNetworked(vehicle) then TriggerServerEvent('ox_fuel:setFuel', amount) end
+  Line    41 | return TriggerServerEvent('ox_fuel:fuelCan', true, config.petrolCan.refillPrice)
+  Line    44 | TriggerServerEvent('ox_fuel:fuelCan', false, config.petrolCan.price)
+  Line   143 | TriggerServerEvent('ox_fuel:pay', price, fuelAmount, NetworkGetNetworkIdFromEntity(vehicle))
+  Line   145 | TriggerServerEvent('ox_fuel:updateFuelCan', durability, NetworkGetNetworkIdFromEntity(vehicle), fuelAmount)
+
+File: ox_fuel/client/init.lua
+-----------------------------
+  Line    27 | TriggerServerEvent('ox_fuel:setFuel', GetVehicleFuelLevel(vehicle))
+
+File: ox_inventory/client.lua
+-----------------------------
+  Line   482 | TriggerServerEvent('ox_inventory:usedItemInternal', slot)
+  Line   918 | TriggerServerEvent('ox_inventory:closeInventory')
+  Line  1515 | TriggerServerEvent('ox_inventory:updateWeapon', 'ammo', weaponAmmo)
+  Line  1526 | TriggerServerEvent('ox_inventory:updateWeapon', 'melee', currentWeapon.melee)
+  Line  1575 | TriggerServerEvent('ox_inventory:updateWeapon', 'throw', nil, weapon.slot)
+  Line  1644 | return TriggerServerEvent('ox_inventory:updateWeapon', 'component', data)
+
+File: ox_inventory/modules/weapon/client.lua
+--------------------------------------------
+  Line   101 | TriggerServerEvent('ox_inventory:updateWeapon')
+
+File: ox_lib/imports/callback/client.lua
+----------------------------------------
+  Line    57 | TriggerServerEvent('ox_lib:validateCallback', event, cache.resource, key)
+  Line    58 | TriggerServerEvent(cbEvent:format(event), cache.resource, key, ...)
+  Line   141 | TriggerServerEvent(cbEvent:format(resource), key, callbackResponse(pcall(cb, ...)))
+
+File: ox_lib/resource/callbacks/shared.lua
+------------------------------------------
+  Line    64 | TriggerServerEvent(event, key, 'cb_invalid')
+
+File: ox_lib/resource/interface/client/context.lua
+--------------------------------------------------
+  Line   119 | if data.serverEvent then TriggerServerEvent(data.serverEvent, data.args) end
+
+File: ox_lib/resource/interface/client/progress.lua
+---------------------------------------------------
+  Line    97 | TriggerServerEvent('ox_lib:progressProps', data.prop)
+  Line   144 | TriggerServerEvent('ox_lib:progressProps', nil)
+
+File: ox_lib/resource/vehicleProperties/client.lua
+--------------------------------------------------
+  Line   493 | TriggerServerEvent('jim-mechanic:server:loadStatus', props, VehToNet(vehicle))
+
+File: ox_lib/resource/zoneCreator/client.lua
+--------------------------------------------
+  Line    86 | TriggerServerEvent('ox_lib:saveZone', {
+
+File: ox_target/client/api.lua
+------------------------------
+  Line   290 | TriggerServerEvent('ox_target:setEntityHasOptions', netId)
+
+File: ox_target/client/defaults.lua
+-----------------------------------
+  Line    56 | TriggerServerEvent('ox_target:toggleEntityDoor', VehToNet(entity), door)
+
+File: ox_target/client/main.lua
+-------------------------------
+  Line   445 | TriggerServerEvent(option.serverEvent, getResponse(option, true))
+
+File: pd_cooldown/client.lua
+----------------------------
+  Line    64 | TriggerServerEvent('pd_cooldown:server:updateRobberyStatus', data)
+  Line    70 | TriggerServerEvent('pd_cooldown:server:updateCityStatus', data.status)
+
+File: pma-voice/client/module/phone.lua
+---------------------------------------
+  Line    35 | TriggerServerEvent('pma-voice:setPlayerCall', channel)
+
+File: pma-voice/client/module/radio.lua
+---------------------------------------
+  Line   121 | TriggerServerEvent('pma-voice:setPlayerRadio', channel)
+  Line   197 | TriggerServerEvent('pma-voice:setTalkingOnRadio', true)
+  Line   257 | TriggerServerEvent('pma-voice:setTalkingOnRadio', false)
+
+File: PolyZone/creation/client/BoxZone.lua
+------------------------------------------
+  Line   111 | TriggerServerEvent("polyzone:printBox",
+
+File: PolyZone/creation/client/CircleZone.lua
+---------------------------------------------
+  Line    52 | TriggerServerEvent("polyzone:printCircle",
+
+File: PolyZone/creation/client/PolyZone.lua
+-------------------------------------------
+  Line    27 | TriggerServerEvent("polyzone:printPoly",
+
+File: ps-adminmenu/client/chat.lua
+----------------------------------
+  Line    20 | TriggerServerEvent("ps-adminmenu:server:sendMessageServer", message, PlayerData.citizenid, PlayerData.charinfo.firstname .. " " .. PlayerData.charinfo.lastname)
+
+File: ps-adminmenu/client/inventory.lua
+---------------------------------------
+  Line     6 | TriggerServerEvent("ps-adminmenu:server:OpenInv", player)
+  Line     8 | TriggerServerEvent("inventory:server:OpenInventory", "otherplayer", player)
+  Line    17 | TriggerServerEvent("ps-adminmenu:server:OpenStash", stash)
+  Line    19 | TriggerServerEvent("inventory:server:OpenInventory", "stash", tostring(stash))
+  Line    29 | TriggerServerEvent("ps-adminmenu:server:OpenTrunk", vehiclePlate)
+  Line    31 | TriggerServerEvent("inventory:server:OpenInventory", "trunk", tostring(vehiclePlate))
+
+File: ps-adminmenu/client/main.lua
+----------------------------------
+  Line    46 | TriggerServerEvent('ps-adminmenu:server:ValidateClientAction', key, selectedData, data.event, data.perms)
+  Line    48 | TriggerServerEvent(data.event, key, selectedData)
+
+File: ps-adminmenu/client/misc.lua
+----------------------------------
+  Line    53 | TriggerServerEvent('ps-adminmenu:server:ValidateCommand', 'vector2', 'mod')
+  Line    57 | TriggerServerEvent('ps-adminmenu:server:ValidateCommand', 'vector3', 'mod')
+  Line    61 | TriggerServerEvent('ps-adminmenu:server:ValidateCommand', 'vector4', 'mod')
+  Line    65 | TriggerServerEvent('ps-adminmenu:server:ValidateCommand', 'heading', 'mod')
+  Line   133 | TriggerServerEvent('ps-adminmenu:server:ValidateCommand', 'setammo', 'mod')
+  Line   172 | TriggerServerEvent('ps-adminmenu:server:ValidateClientAction', 'noclip', nil, Config.Actions["noclip"].event, Config.Actions["noclip"].perms)
+
+File: ps-adminmenu/client/players.lua
+-------------------------------------
+  Line   175 | TriggerServerEvent('hud:server:RelieveStress', 100)
+
+File: ps-adminmenu/client/spectate.lua
+--------------------------------------
+  Line    40 | TriggerServerEvent('ps-adminmenu:spectate:teleport', spectateInfo['target'])
+
+File: ps-adminmenu/client/troll.lua
+-----------------------------------
+  Line    26 | TriggerServerEvent("InteractSound_SV:PlayOnOne", player, sound, 0.30)
+
+File: ps-adminmenu/client/utils.lua
+-----------------------------------
+  Line    47 | TriggerServerEvent("qb-log:server:CreateLog", "ps-adminmenu", title, "red", message)
+
+File: ps-adminmenu/client/vehicles.lua
+--------------------------------------
+  Line    19 | TriggerServerEvent('ps-adminmenu:server:SaveCar', data, props, sharedVehicles, hash, props.plate)
+  Line    83 | TriggerServerEvent('ps-adminmenu:server:ChangePlate', plate, currentPlate)
+  Line    87 | TriggerServerEvent('qb-vehiclekeys:server:AcquireVehicleKeys', QBCore.Functions.GetPlate(cache.vehicle))
+
+File: ps-adminmenu/client/world.lua
+-----------------------------------
+  Line     7 | TriggerServerEvent('qb-weathersync:server:setTime', time, 00)
+  Line    14 | TriggerServerEvent('qb-weathersync:server:setWeather', weather)
+
+File: ps-multijob/client/cl_main.lua
+------------------------------------
+  Line    41 | TriggerServerEvent("ps-multijob:changeJob", data["name"], data["grade"])
+  Line    53 | TriggerServerEvent("ps-multijob:removeJob", data["name"], data["grade"])
+  Line    69 | TriggerServerEvent("QBCore:ToggleDuty")
+
+File: qb-community/client/main.lua
+----------------------------------
+  Line   185 | TriggerServerEvent("qb-banservice:server:completeBanService")
+  Line   194 | TriggerServerEvent("qb-banservice:server:updateBanService", banActionsRemaining)
+  Line   277 | TriggerServerEvent("qb-community:server:finishCommunityService")
+  Line   283 | TriggerServerEvent("qb-community:server:updateService", comservCount)
+  Line   302 | TriggerServerEvent("qb-banservice:server:checkBanServiceOnLoad")
+  Line   317 | TriggerServerEvent("qb-banservice:server:checkBanServiceOnLoad")
+  Line   337 | TriggerServerEvent('qb-community:server:teleportPlayer', Config.BanServiceLocation)
+  Line   389 | TriggerServerEvent('qb-community:server:teleportPlayer', Config.BanServiceLocation)
+  Line   390 | TriggerServerEvent("qb-banservice:server:extendBanService")
+  Line   397 | TriggerServerEvent("qb-banservice:server:finishBanService", banActionsRemaining)
+  Line   406 | TriggerServerEvent('qb-community:server:teleportPlayer', vector3(1847.46, 2585.96, 45.67), 269.74)
+  Line   436 | TriggerServerEvent('qb-community:server:teleportPlayer', vector3(1847.46, 2585.96, 45.67), 269.74)
+  Line   474 | TriggerServerEvent('qb-community:server:teleportPlayer', Config.BanServiceLocation)
+  Line   561 | TriggerServerEvent('qb-community:server:teleportPlayer', Config.ServiceLocation)
+  Line   563 | TriggerServerEvent("qb-community:server:extendService")
+  Line   661 | TriggerServerEvent('qb-community:server:teleportPlayer', Config.ServiceLocation)
+  Line   671 | TriggerServerEvent('qb-community:server:teleportPlayer', Config.ServiceLocation)
+  Line   672 | TriggerServerEvent("qb-community:server:extendService")
+  Line   679 | TriggerServerEvent("qb-community:server:finishCommunityService", comservCount)
+  Line   719 | TriggerServerEvent("qb-community:client:sendData", {
+  Line   746 | TriggerServerEvent("qb-community:server:endCommunityService", tonumber(args[1]))
+  Line   773 | TriggerServerEvent("qb-banservice:server:endBanService", tonumber(args[1]))
+  Line   783 | TriggerServerEvent("qb-banservice:server:getBanServiceDetails")
+  Line   911 | TriggerServerEvent("qb-banservice:server:sendBanService", tonumber(targetId), amount, reason, pov)
+  Line   913 | TriggerServerEvent("qb-banservice:server:sendBanServiceCitizenID", targetId, amount, reason, pov)
+
+File: qbx_core/bridge/qb/client/main.lua
+----------------------------------------
+  Line    28 | TriggerServerEvent('QBCore:Server:TriggerClientCallback', name, ...)
+  Line    59 | TriggerServerEvent('QBCore:Server:TriggerCallback', name, ...)
+
+File: qbx_core/client/character.lua
+-----------------------------------
+  Line   279 | TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
+  Line   281 | TriggerServerEvent('qb-houses:server:SetInsideMeta', 0, false)
+  Line   282 | TriggerServerEvent('qb-apartments:server:SetInsideMeta', 0, 0, false)
+  Line   306 | TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
+  Line   308 | TriggerServerEvent('qb-houses:server:SetInsideMeta', 0, false)
+  Line   309 | TriggerServerEvent('qb-apartments:server:SetInsideMeta', 0, 0, false)
+  Line   463 | TriggerServerEvent('qbx_core:server:deleteCharacter', character.citizenid)
+  Line   497 | TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
+  Line   499 | TriggerServerEvent('qb-houses:server:SetInsideMeta', 0, false)
+  Line   500 | TriggerServerEvent('qb-apartments:server:SetInsideMeta', 0, 0, false)
+
+File: qbx_core/client/vehicle-persistence.lua
+---------------------------------------------
+  Line    54 | TriggerServerEvent('qbx_core:server:vehiclePropsChanged', netId, diff)
+
+File: qbx_fireworks/client/main.lua
+-----------------------------------
+  Line    98 | TriggerServerEvent('qbx_fireworks:server:spawnObject', 'ind_prop_firework_03', coords)
+
+File: qbx_radialmenu/client/main.lua
+------------------------------------
+  Line    81 | TriggerServerEvent(tbl.serverEvent, tbl.args or nil)
+  Line   194 | TriggerServerEvent('hospital:server:emergencyAlert')
+  Line   258 | TriggerServerEvent('qb-radialmenu:trunk:server:Door', false, plate, door)
+  Line   264 | TriggerServerEvent('qb-radialmenu:trunk:server:Door', true, plate, door)
+
+File: qbx_radialmenu/client/trunk.lua
+-------------------------------------
+  Line    92 | TriggerServerEvent("police:server:CuffPlayer", GetPlayerServerId(closestPlayer), false)
+  Line    94 | TriggerServerEvent("qb-trunk:server:KidnapTrunk", GetPlayerServerId(closestPlayer), closestVehicle)
+  Line   115 | TriggerServerEvent('qb-trunk:server:setTrunkBusy', plate, true)
+  Line   133 | TriggerServerEvent('qb-smallresources:trunk:server:setTrunkBusy', plate, nil)
+  Line   174 | TriggerServerEvent('qb-trunk:server:setTrunkBusy', plate, true)
+  Line   235 | TriggerServerEvent('qb-trunk:server:setTrunkBusy', plate, false)
+  Line   248 | TriggerServerEvent('qb-radialmenu:trunk:server:Door', false, plate, 5)
+  Line   258 | TriggerServerEvent('qb-radialmenu:trunk:server:Door', true, plate, 5)
+
+File: qbx_smallresources/ac/client.lua
+--------------------------------------
+  Line    10 | TriggerServerEvent("ranger_ac:resourceState", false)
+
+File: qbx_smallresources/qbx_carry/client.lua
+---------------------------------------------
+  Line    87 | TriggerServerEvent('CarryPeople:sync',targetSrc)
+  Line   101 | TriggerServerEvent('CarryPeople:stop',carry.targetSrc)
+
+File: qbx_smallresources/qbx_consumables/client.lua
+---------------------------------------------------
+  Line   135 | TriggerServerEvent('hud:server:RelieveStress', math.random(15, 18))
+
+File: qbx_truckrobbery/client/main.lua
+--------------------------------------
+  Line   105 | TriggerServerEvent('qbx_truckrobbery:server:plantedBomb')
+  Line   257 | TriggerServerEvent('qbx_truckrobbery:server:startMission')
+
+File: qbx_truckrobbery/config/client.lua
+----------------------------------------
+  Line     8 | TriggerServerEvent('qb-phone:server:sendNewMail', {
+
+File: qbx_vehiclekeys/bridge/qb/client.lua
+------------------------------------------
+  Line     4 | TriggerServerEvent('qb-vehiclekeys:server:AcquireVehicleKeys', plate)
+  Line     8 | TriggerServerEvent('qb-vehiclekeys:server:removeKeys', plate)
+  Line    12 | TriggerServerEvent('qb-vehiclekeys:server:AcquireVehicleKeys', plate)
+
+File: qbx_vehiclekeys/client/carjack.lua
+----------------------------------------
+  Line    96 | TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+
+File: qbx_vehiclekeys/client/functions.lua
+------------------------------------------
+  Line   139 | TriggerServerEvent("qb-vehiclekeys:server:breakLockpick", "advancedlockpick")
+  Line   143 | TriggerServerEvent("qb-vehiclekeys:server:breakLockpick", "lockpick")
+  Line   151 | TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+  Line   153 | TriggerServerEvent('qb-vehiclekeys:server:setVehLockState', NetworkGetNetworkIdFromEntity(vehicle), 1)
+  Line   167 | TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+  Line   225 | TriggerServerEvent('qbx_vehiclekeys:server:hotwiredVehicle', VehToNet(vehicle))
+  Line   237 | TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+
+File: qbx_vehiclekeys/client/main.lua
+-------------------------------------
+  Line    21 | TriggerServerEvent('qb-vehiclekeys:server:setVehLockState', NetworkGetNetworkIdFromEntity(vehicle), lockstate)
+  Line    60 | TriggerServerEvent('qbx_vehiclekeys:server:playerEnteredVehicleWithEngineOn', VehToNet(vehicle))
+  Line   171 | TriggerServerEvent('qb-vehiclekeys:server:setVehLockState', data.netId, 1)
+  Line   182 | TriggerServerEvent('qbx_vehiclekeys:server:tookKeys', VehToNet(data.vehicle))
+  Line   218 | TriggerServerEvent('qb-vehiclekeys:server:setVehLockState', NetworkGetNetworkIdFromEntity(leftVehicle), 2)
+  Line   264 | TriggerServerEvent('qb-vehiclekeys:server:setVehLockState', NetworkGetNetworkIdFromEntity(vehicle), lockState)
+
+File: qbx_vehiclekeys/client/searchkeys.lua
+-------------------------------------------
+  Line    55 | TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+
+File: qbx_vehiclekeys/config/client.lua
+---------------------------------------
+  Line    52 | TriggerServerEvent('police:server:policeAlert', locale("info.vehicle_theft") .. crime)
+
+File: Ranger-Siren/client.lua
+-----------------------------
+  Line    15 | local TriggerServerEvent = TriggerServerEvent
+  Line   310 | TriggerServerEvent('PowerRanger-Siren:server:SyncState', VehToNet(cache.vehicle))
+
+File: Renewed-Banking/client/main.lua
+-------------------------------------
+  Line   187 | TriggerServerEvent('Renewed-Banking:server:getPlayerAccounts')
+
+File: Renewed-Banking/client/menus.lua
+--------------------------------------
+  Line    32 | TriggerServerEvent("Renewed-Banking:server:createNewAccount", input[1])
+  Line   157 | TriggerServerEvent('Renewed-Banking:server:addAccountMember', data.account, input[1])
+  Line   169 | TriggerServerEvent('Renewed-Banking:server:changeAccountName', data.account, input[1])
+
+File: Renewed-Weathersync/client/admin.lua
+------------------------------------------
+  Line   138 | TriggerServerEvent('Renewed-Weather:server:removeWeatherEvent', index)
+
+File: rpemotes-reborn/client/emojis.lua
+---------------------------------------
+  Line   221 | TriggerServerEvent('rpemotes:server:shareEmoji', emoji)
+
+File: rpemotes-reborn/client/Emote.lua
+--------------------------------------
+  Line   839 | TriggerServerEvent("rpemotes:ptfx:sync", animOption.PtfxAsset, animOption.PtfxName, vector3(Ptfx1, Ptfx2, Ptfx3),
+
+File: rpemotes-reborn/client/EmoteMenu.lua
+------------------------------------------
+  Line   165 | TriggerServerEvent("rpemotes:server:requestEmote", GetPlayerServerId(target), emoteName)
+  Line   972 | TriggerServerEvent('rpemotes:server:requestPermissions')
+
+File: rpemotes-reborn/client/GroupEmote.lua
+-------------------------------------------
+  Line    98 | TriggerServerEvent("rpemotes:server:startGroupEmote", emotename, players, emoteRadius)
+  Line   163 | TriggerServerEvent("rpemotes:server:refuseGroupEmote", reqid)
+  Line   178 | TriggerServerEvent("rpemotes:server:confirmGroupEmote", reqid)
+  Line   195 | TriggerServerEvent("rpemotes:server:refuseGroupEmote", reqid)
+
+File: rpemotes-reborn/client/Placement.lua
+------------------------------------------
+  Line   104 | TriggerServerEvent("rpemotes:server:syncHeading", placementPosition.w)
+  Line   457 | TriggerServerEvent("rpemotes:server:syncHeading", nil)
+
+File: rpemotes-reborn/client/Syncing.lua
+----------------------------------------
+  Line    17 | TriggerServerEvent("rpemotes:server:requestEmote", GetPlayerServerId(target), emotename)
+  Line   140 | TriggerServerEvent("rpemotes:server:cancelEmote", targetPlayerId)
+  Line   165 | TriggerServerEvent("rpemotes:server:confirmEmote", target, emotename, otheremote)
+
+File: snipe-menu/client/encrypted/cl_adminchat.lua
+--------------------------------------------------
+  Line    21 | TriggerServerEvent("snipe-menu:server:adminMessageSent", data)
+  Line    31 | TriggerServerEvent("snipe-menu:server:notifyAdmins", chatData.currUserName)
+
+File: snipe-menu/client/encrypted/cl_adminmanagement.lua
+--------------------------------------------------------
+  Line    72 | TriggerServerEvent("snipe-menu:server:kickPlayer", playerId, reason)
+  Line    75 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.kick_player_exploit_event)
+  Line    84 | TriggerServerEvent("snipe-menu:server:warnPlayer", playerId, reason)
+  Line    87 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.warn_player_exploit_event)
+  Line    96 | TriggerServerEvent("snipe-menu:server:sendDmToPlayer", playerId, message)
+  Line   105 | TriggerServerEvent("snipe-menu:server:banPlayer", tonumber(data.selectedPlayer.id), 2147483647, data.reason, "Permanent")
+  Line   122 | TriggerServerEvent("snipe-menu:server:banPlayer", tonumber(data.selectedPlayer.id), banSeconds, data.reason, tonumber(data.banTime) .. " " .. banUnit)
+  Line   127 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.ban_player_exploit)
+  Line   161 | TriggerServerEvent("snipe-menu:server:wipePlayer", data.selectedPlayer.id)
+  Line   164 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.wipe_player_exploit)
+  Line   173 | TriggerServerEvent("snipe-menu:server:banOfflinePlayer", data.selectedPlayer.id, 2147483647, data.reason, "Permanent", data.selectedPlayer.name)
+  Line   189 | TriggerServerEvent("snipe-menu:server:banOfflinePlayer", data.selectedPlayer.id, banSeconds, data.reason, tonumber(data.banTime) .. " " .. banUnit, data.selectedPlayer.name)
+  Line   195 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.ban_player_exploit)
+  Line   242 | TriggerServerEvent("snipe-menu:server:bringPlayer", targetId, myCoords)
+  Line   245 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.bring_player_exploit)
+  Line   252 | TriggerServerEvent("snipe-menu:server:sendBackPlayer", tonumber(data.selectedPlayer.id))
+  Line   255 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.bring_player_exploit)
+  Line   262 | TriggerServerEvent("snipe-menu:server:clearInventory", tonumber(data.selectedPlayer.id))
+  Line   265 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.clear_inventory_exploit)
+  Line   277 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.clear_vehicles_exploit)
+  Line   289 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.clear_peds_exploit)
+  Line   301 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.clear_object_exploit)
+  Line   322 | TriggerServerEvent("snipe-menu:server:unbanPlayer", data.selectedPlayer.id, data.selectedPlayer.name)
+  Line   325 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.unban_player_exploit)
+  Line   332 | TriggerServerEvent("snipe-menu:server:changeModel", data.selectedPlayer.id, data.selectedItem.name)
+  Line   335 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.unban_player_exploit)
+  Line   375 | TriggerServerEvent("snipe-menu:server:revertClothing", tonumber(data.selectedPlayer.id))
+  Line   378 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.unban_player_exploit)
+  Line   385 | TriggerServerEvent("snipe-menu:server:forceLogout", data.selectedPlayer.id)
+  Line   392 | TriggerServerEvent("snipe-menu:server:giveOutfits", data.selectedPlayer.id)
+
+File: snipe-menu/client/encrypted/cl_admin_vehicles.lua
+-------------------------------------------------------
+  Line    91 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", ("Spawned owned vehicle %s"):format(vehicleData.plate or "unknown"))
+  Line    99 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", "Exploit detected: getAdminOwnedVehicles")
+  Line   110 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", "Exploit detected: spawnAdminOwnedVehicle")
+  Line   126 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", "Exploit detected: teleportToAdminOwnedVehicle")
+  Line   136 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", "Exploit detected: deleteAdminOwnedVehicle")
+
+File: snipe-menu/client/encrypted/cl_blips.lua
+----------------------------------------------
+  Line   113 | TriggerServerEvent("snipe-menu:server:blipsStarted", true)
+  Line   123 | TriggerServerEvent("snipe-menu:server:blipsStarted", false)
+  Line   132 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.blip_exploit)
+  Line   139 | TriggerServerEvent("snipe-menu:server:blipsStarted", false)
+  Line   165 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.toggle_name_exploit)
+  Line   176 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.blips_exploit)
+  Line   187 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.toggle_name_exploit)
+
+File: snipe-menu/client/encrypted/cl_deleteentity.lua
+-----------------------------------------------------
+  Line   273 | TriggerServerEvent("snipe-menu:server:toggleDoor", doorHash)
+  Line   524 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.deleteprop_used .. " " .. PropTable[data.selectedPlayer.id].model)
+  Line   525 | TriggerServerEvent("snipe-menu:server:deleteProp", data.selectedPlayer.id, PropTable[data.selectedPlayer.id].coords)
+  Line   529 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.deleteprop_exploited)
+  Line   555 | TriggerServerEvent("snipe-menu:server:deleteProp", prop.id, prop.coords)
+
+File: snipe-menu/client/encrypted/cl_items.lua
+----------------------------------------------
+  Line    17 | TriggerServerEvent("snipe-menu:server:giveItem", targetPlayerId, itemId, amount)
+  Line    19 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.give_item_exploit)
+  Line    30 | TriggerServerEvent("snipe-menu:server:giveMoney", targetPlayerId, amount, moneyType)
+  Line    33 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.give_money_exploit)
+
+File: snipe-menu/client/encrypted/cl_jobstash.lua
+-------------------------------------------------
+  Line   122 | TriggerServerEvent("snipe-menu:server:moveObject", coords, heading, rotation, moveObjectData)
+  Line   166 | TriggerServerEvent("snipe-menu:server:putNewJobStash", coords, modelName, heading, jobName, stashSize, stashSlots, stashName, isJobStash, isGangStash, rotation, isDoor)
+  Line   272 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.job_stash_exploit)
+  Line   294 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.job_stash_exploit)
+  Line   311 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.job_stash_exploit)
+
+File: snipe-menu/client/encrypted/cl_main.lua
+---------------------------------------------
+  Line    30 | TriggerServerEvent("snipe-menu:server:playerLoaded")
+  Line   183 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.god_mode_used)
+  Line   221 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.super_jump_used)
+  Line   235 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.fix_vehicle_used)
+  Line   238 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.fix_vehicle_exploit)
+  Line   249 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.god_mode_exploit)
+  Line   260 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.noclip_exploit)
+  Line   284 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.admintag_exploit)
+  Line   296 | TriggerServerEvent("snipe-menu:server:toggleAdminTag", adminTagActive)
+  Line   298 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.admintag_exploit)
+  Line   307 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.invisible_used)
+  Line   320 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.invisible_exploit)
+  Line   328 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.teleport_marker_used)
+  Line   331 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.teleport_exploit)
+  Line   342 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.super_jump_exploit)
+  Line   366 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.super_jump_exploit) -- Note: using same locale in original
+  Line   373 | TriggerServerEvent("snipe-menu:server:removeStress", data.selectedPlayer.id)
+  Line   376 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.stress_exploit)
+  Line   392 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.get_vector3_exploit)
+  Line   402 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.get_vector3_exploit)
+  Line   413 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.get_vector4_exploit)
+  Line   424 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.get_json_exploit)
+  Line   444 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.invisible_used)
+  Line   457 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.invisible_exploit)
+  Line   478 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.god_mode_exploit)
+
+File: snipe-menu/client/encrypted/cl_openstashes.lua
+----------------------------------------------------
+  Line    31 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Opened Stash " .. data.selectedValue.name)
+  Line    33 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.inventory_open_exploit)
+  Line    44 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Opened Trunk for plate: " .. data.selectedPlayer.name)
+  Line    47 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.inventory_open_exploit)
+  Line    57 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Opened glovebox for plate: " .. data.selectedPlayer.name)
+  Line    60 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.inventory_open_exploit)
+
+File: snipe-menu/client/encrypted/cl_playerlistmenu.lua
+-------------------------------------------------------
+  Line    11 | TriggerServerEvent("snipe-menu:server:Announce", data.announcement)
+  Line    14 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.announce_exploit)
+  Line    31 | TriggerServerEvent("snipe-menu:server:giveClothes", tonumber(data.selectedPlayer.id))
+  Line    39 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.give_clothes_exploit)
+  Line    47 | TriggerServerEvent("snipe-menu:server:freezeplayer", tonumber(data.selectedPlayer.id), isFrozen)
+  Line    50 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.freeze_player_exploit)
+  Line    57 | TriggerServerEvent("snipe-menu:server:reviveplayer", tonumber(data.selectedPlayer.id))
+  Line    60 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.revive_player_exploit)
+  Line    67 | TriggerServerEvent("snipe-menu:server:healPlayer", tonumber(data.selectedPlayer.id))
+  Line    70 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.heal_player_exploit)
+  Line    77 | TriggerServerEvent("snipe-menu:server:reviveall")
+  Line    80 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.revive_all_exploit)
+  Line    87 | TriggerServerEvent("snipe-menu:server:reviveInRadius")
+  Line    90 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.revive_player_exploit)
+  Line    97 | TriggerServerEvent("snipe-menu:server:teleporttoplayer", tonumber(data.selectedPlayer.id))
+  Line   100 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.teleport_player_exploit)
+  Line   109 | TriggerServerEvent("snipe-menu:server:openinventory", tonumber(data.selectedPlayer.id))
+  Line   112 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.inventory_open_exploit)
+  Line   126 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.inventory_open_exploit)
+  Line   139 | TriggerServerEvent("snipe-menu:server:setjob", tonumber(data.selectedPlayer.id), data.selectedItem.id, tonumber(data.selectedItem.grade))
+  Line   142 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.setjob_exploit)
+  Line   155 | TriggerServerEvent("snipe-menu:server:setGang", tonumber(data.selectedPlayer.id), data.selectedItem.id, tonumber(data.selectedItem.grade))
+  Line   158 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.setgang_exploit)
+  Line   166 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Teleported to coords: " .. data.xcoord .. ", " .. data.ycoord .. ", " .. data.zcoord)
+  Line   169 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.setjob_exploit)
+  Line   178 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.dev_mode_enabled)
+  Line   185 | TriggerServerEvent("snipe-menu:server:toggleDev", devMode)
+  Line   188 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.dev_mode_exploit)
+  Line   196 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales.debug_mode_enabled)
+  Line   206 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.debug_mode_exploit)
+  Line   215 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.toggle_duty_exploit)
+
+File: snipe-menu/client/encrypted/cl_reports.lua
+------------------------------------------------
+  Line    73 | TriggerServerEvent("snipe-menu:server:ticket:create", data)
+  Line    79 | TriggerServerEvent("snipe-menu:server:ticket:message", data)
+  Line    85 | TriggerServerEvent("snipe-menu:server:ticket:internalNote", data)
+  Line    91 | TriggerServerEvent("snipe-menu:server:ticket:claim", data.id)
+  Line    97 | TriggerServerEvent("snipe-menu:server:ticket:unclaim", data.id)
+  Line   103 | TriggerServerEvent("snipe-menu:server:ticket:close", data.id)
+  Line   109 | TriggerServerEvent("snipe-menu:server:ticket:submitRating", data)
+  Line   115 | TriggerServerEvent("snipe-menu:server:ticket:addParticipant", data)
+  Line   121 | TriggerServerEvent("snipe-menu:server:ticket:removeParticipant", data)
+  Line   136 | TriggerServerEvent("snipe-menu:server:ticket:upsertCategory", data)
+  Line   142 | TriggerServerEvent("snipe-menu:server:ticket:deleteCategory", data)
+  Line   157 | TriggerServerEvent("snipe-menu:server:ticket:upsertQuickTicket", data)
+  Line   163 | TriggerServerEvent("snipe-menu:server:ticket:deleteQuickTicket", data)
+  Line   178 | TriggerServerEvent("snipe-menu:server:ticket:clearStatistics")
+  Line   337 | TriggerServerEvent("snipe-menu:server:playerTeleportFromReport", GetEntityCoords(PlayerPedId()), data.playerId)
+  Line   343 | TriggerServerEvent("snipe-menu:server:sendBackPlayer", data.playerId)
+  Line   356 | TriggerServerEvent("snipe-menu:server:startSpectating", tonumber(data.playerId))
+  Line   369 | TriggerServerEvent("snipe-menu:server:bringPlayer", targetId, myCoords)
+  Line   372 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.bring_player_exploit)
+
+File: snipe-menu/client/encrypted/cl_resources.lua
+--------------------------------------------------
+  Line    20 | TriggerServerEvent("snipe-menu:server:teleporttoplayer", tonumber(data.playerId))
+  Line    24 | TriggerServerEvent("snipe-menu:server:bringPlayer", targetId, myCoords)
+  Line    27 | TriggerServerEvent("snipe-menu:server:startSpectating", tonumber(data.playerId))
+  Line    30 | TriggerServerEvent("snipe-menu:server:freezeplayer", tonumber(data.playerId), isFrozen)
+  Line    32 | TriggerServerEvent("snipe-menu:server:sendBackPlayer", tonumber(data.playerId))
+  Line    57 | TriggerServerEvent("snipe-menu:server:startResource", data.name)
+  Line    73 | TriggerServerEvent("snipe-menu:server:stopResource", data.name)
+  Line    89 | TriggerServerEvent("snipe-menu:server:restartResource", data.name)
+
+File: snipe-menu/client/encrypted/cl_settings.lua
+-------------------------------------------------
+  Line     8 | TriggerServerEvent("snipe-menu:server:saveModeratorCommands", data.selectedValues, data.role)
+  Line    11 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", "Tried to save moderator commands")
+  Line    65 | TriggerServerEvent("snipe-menu:server:givePerms", playerId, roleId)
+  Line    81 | TriggerServerEvent("snipe-menu:server:removeRoles", data.selectedValue.id)
+  Line    92 | TriggerServerEvent("snipe-menu:server:playerLoaded")
+
+File: snipe-menu/client/encrypted/cl_spectate.lua
+-------------------------------------------------
+  Line    83 | TriggerServerEvent("snipe-menu:server:endSpectate")
+  Line   121 | TriggerServerEvent("snipe-menu:server:cycle", spectateTargetServerId, isNext)
+  Line   186 | TriggerServerEvent("snipe-menu:server:spectatePlayer", tonumber(data.selectedPlayer.id))
+  Line   287 | TriggerServerEvent("snipe-menu:server:startSpectating", tonumber(data.selectedPlayer.id))
+
+File: snipe-menu/client/encrypted/cl_troll.lua
+----------------------------------------------
+  Line    21 | TriggerServerEvent("snipe-adminmenu:server:drunkPlayer", data.selectedPlayer.id)
+  Line    23 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.drunk_player_exploit)
+  Line    31 | TriggerServerEvent("snipe-adminmenu:server:firePlayer", data.selectedPlayer.id)
+  Line    33 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.fire_player_exploit)
+  Line    41 | TriggerServerEvent("snipe-adminmenu:server:sendToJailBox", data.selectedPlayer.id)
+  Line    43 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.send_box_player_exploit)
+  Line    51 | TriggerServerEvent("snipe-adminmenu:server:slapSky", data.selectedPlayer.id)
+  Line    53 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.slap_sky_player_exploit)
+  Line    75 | TriggerServerEvent("snipe-adminmenu:server:playSound", data.selectedPlayer.id, data.selectedItem.id)
+  Line    77 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.play_sound_exploit)
+  Line    85 | TriggerServerEvent("snipe-adminmenu:server:damagePlayerVehicle", data.selectedPlayer.id)
+  Line    87 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.damage_vehicle_exploit)
+  Line    95 | TriggerServerEvent("snipe-adminmenu:server:peePlayer", data.selectedPlayer.id)
+  Line    97 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.damage_vehicle_exploit)
+  Line   105 | TriggerServerEvent("snipe-adminmenu:server:poopPlayer", data.selectedPlayer.id)
+  Line   107 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.damage_vehicle_exploit)
+  Line   121 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.drunk_player_exploit)
+  Line   130 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.fire_player_exploit)
+  Line   139 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.send_box_player_exploit)
+  Line   148 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.slap_sky_player_exploit)
+  Line   157 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.damage_vehicle_exploit)
+  Line   166 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.slap_sky_player_exploit)
+  Line   175 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.damage_vehicle_exploit)
+  Line   184 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.damage_vehicle_exploit)
+
+File: snipe-menu/client/encrypted/cl_vehicles.lua
+-------------------------------------------------
+  Line    16 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.toggle_benny_exploit)
+  Line    57 | TriggerServerEvent("snipe-menu:server:changePlate", currentPlate, string.upper(data.plateNumber))
+  Line    63 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.announce_exploit)
+  Line   102 | TriggerServerEvent("snipe-menu:server:givecar", tonumber(targetPlayerId), vehicleModel, vehicleData, vehicleType)
+  Line   107 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.give_car_exploit)
+  Line   124 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.spawn_car_exploit)
+  Line   172 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.spawn_car_exploit)
+  Line   189 | TriggerServerEvent("snipe-menu:server:changeVehicleState", data.selectedPlayer.name)
+  Line   205 | TriggerServerEvent("snipe-menu:server:addAdminCar", vehicleName, vehicleData, vehicleType)
+  Line   216 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.admin_car_exploit)
+  Line   231 | TriggerServerEvent("snipe-menu:server:addAdminCar", vehicleName, vehicleData, vehicleType)
+  Line   242 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.admin_car_exploit)
+
+File: snipe-menu/client/encrypted/cl_weathermanagement.lua
+----------------------------------------------------------
+  Line    36 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Weather changed to " .. data.selectedValue.name)
+  Line    40 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.weather_change_exploit)
+  Line    57 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Time changed to " .. hour)
+  Line    61 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales.time_change_exploit)
+
+File: snipe-menu/client/open/cl_customise.lua
+---------------------------------------------
+  Line    31 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales["teleport_exploit_event"])
+  Line    42 | TriggerServerEvent("hud:server:RelieveStress", 100) -- this is qbcore event to remove stress (that particular event is in qb-hud/server.lua)
+  Line    44 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales["stress_exploit_event"])
+  Line    52 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales["teleport_exploit_event"])
+
+File: snipe-menu/client/open/cl_customise_1.lua
+-----------------------------------------------
+  Line     5 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales["toggle_duty_exploit"])
+
+File: snipe-menu/client/open/cl_keybinds.lua
+--------------------------------------------
+  Line   232 | TriggerServerEvent("snipe-menu:server:toggleReports")
+
+File: snipe-menu/client/open/cl_names.lua
+-----------------------------------------
+  Line    41 | TriggerServerEvent("snipe-menu:server:sendLogs", "toggled_names", Config.Locales["toggle_name_used"])
+  Line    56 | TriggerServerEvent("snipe-menu:server:sendLogs", "toggled_names", "Turned off player names")
+  Line    63 | TriggerServerEvent("snipe-menu:server:sendLogs", "toggled_names", Config.Locales["toggle_name_used"])
+  Line   100 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Turned off player names")
+
+File: snipe-menu/client/open/cl_noclip.lua
+------------------------------------------
+  Line   259 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", Config.Locales["noclip_used"])
+
+File: snipe-menu/client/open/cl_troll_customise.lua
+---------------------------------------------------
+  Line   131 | TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 10.0, soundName, 0.5)
+
+File: snipe-menu/client/open/cl_vehicles_customise.lua
+------------------------------------------------------
+  Line    31 | TriggerServerEvent("snipe-menu:server:sendLogs", "triggered", "Spawned a " .. carName)
+  Line    58 | TriggerServerEvent("snipe-menu:server:sendLogs", "exploit", Config.Locales["fix_vehicle_exploit_event"])
+
+File: snipe-menu/client/open/modules/clothing/qb-clothing.lua
+-------------------------------------------------------------
+  Line     3 | TriggerServerEvent("qb-clothing:server:loadPlayerSkin") -- LOADING PLAYER'S CLOTHES
+  Line     4 | TriggerServerEvent("qb-clothes:loadPlayerSkin") -- LOADING PLAYER'S CLOTHES
+
+File: snipe-menu/client/open/modules/clothing/rcore.lua
+-------------------------------------------------------
+  Line     3 | TriggerServerEvent('rcore_clothing:reloadSkin')
+
+File: snipe-menu/client/open/modules/framework/qb.lua
+-----------------------------------------------------
+  Line   135 | TriggerServerEvent("QBCore:ToggleDuty") -- this event is present in qb-core/server/main.lua
+  Line   143 | TriggerServerEvent("snipe-menu:server:toggleBennys")
+
+File: snipe-menu/client/open/modules/framework/qbx.lua
+------------------------------------------------------
+  Line   104 | TriggerServerEvent("QBCore:ToggleDuty")
+
+File: snipe-menu/client/open/modules/inventory/codem.lua
+--------------------------------------------------------
+  Line    20 | TriggerServerEvent('codem-inventory:server:openstash', stashName, 100,1000000, 'Stash')
+  Line    25 | TriggerServerEvent('codem-inventory:server:openstash', "stash", "trunk-"..plate)
+  Line    30 | TriggerServerEvent('codem-inventory:server:openstash', "stash", "glovebox-"..plate)
+  Line    34 | TriggerServerEvent('codem-inventory:server:openstash', data.jobStashName, data.slots,data.size, 'Stash')
+
+File: snipe-menu/client/open/modules/inventory/core_inventory.lua
+-----------------------------------------------------------------
+  Line    36 | TriggerServerEvent("snipe-menu:server:openStash", stashName)
+  Line    48 | TriggerServerEvent("snipe-menu:server:openStash", data.jobStashName)
+  Line    52 | TriggerServerEvent('core_inventory:server:openInventory', otherPlayer, 'otherplayer', nil, nil, false)
+
+File: snipe-menu/client/open/modules/inventory/ox_inventory.lua
+---------------------------------------------------------------
+  Line    21 | TriggerServerEvent("snipe-menu:server:registerStash", stashName)
+  Line    26 | TriggerServerEvent("snipe-menu:server:registerStash", stashName)
+  Line    47 | TriggerServerEvent("snipe-menu:server:forceOpenOxInventory", "trunk", { plate = plate , netid = NetworkGetNetworkIdFromEntity(spawnedVehicle)})
+  Line    64 | TriggerServerEvent("snipe-menu:server:forceOpenOxInventory", "glovebox", { plate = plate , netid = NetworkGetNetworkIdFromEntity(spawnedVehicle)})
+  Line    82 | TriggerServerEvent("snipe-menu:server:openInventory", otherPlayer)
+
+File: snipe-menu/client/open/modules/inventory/psinventory.lua
+--------------------------------------------------------------
+  Line    24 | TriggerServerEvent("ps-inventory:server:OpenInventory", "stash", stashName, other)
+  Line    27 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", stashName)
+  Line    37 | TriggerServerEvent("ps-inventory:server:OpenInventory", "trunk", plate, other)
+  Line    40 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", "trunk-"..plate)
+  Line    50 | TriggerServerEvent("ps-inventory:server:OpenInventory", "glovebox", plate, other)
+  Line    53 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", "glovebox-"..plate)
+  Line    63 | TriggerServerEvent("ps-inventory:server:OpenInventory", "stash", data.jobStashName, other)
+  Line    66 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", data.jobStashName, {maxweight = data.size, slots = data.slots})
+  Line    76 | TriggerServerEvent("ps-inventory:server:OpenInventory", "otherplayer", otherPlayer)
+  Line    78 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "player", otherPlayer)
+
+File: snipe-menu/client/open/modules/inventory/qb-inventory.lua
+---------------------------------------------------------------
+  Line    24 | TriggerServerEvent("inventory:server:OpenInventory", "stash", stashName, other)
+  Line    27 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", stashName)
+  Line    37 | TriggerServerEvent("inventory:server:OpenInventory", "trunk", plate, other)
+  Line    40 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", "trunk-"..plate)
+  Line    50 | TriggerServerEvent("inventory:server:OpenInventory", "glovebox", plate, other)
+  Line    53 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", "glovebox-"..plate)
+  Line    63 | TriggerServerEvent("inventory:server:OpenInventory", "stash", data.jobStashName, other)
+  Line    66 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "stash", data.jobStashName, {maxweight = data.size, slots = data.slots})
+  Line    76 | TriggerServerEvent("inventory:server:OpenInventory", "otherplayer", otherPlayer)
+  Line    78 | TriggerServerEvent("snipe-menu:server:OpenInventoryQBCompatibility", "player", otherPlayer)
+
+File: snipe-menu/client/open/modules/inventory/qs_inventory.lua
+---------------------------------------------------------------
+  Line    20 | TriggerServerEvent("inventory:server:OpenInventory", "stash", stashName, {
+  Line    32 | TriggerServerEvent("inventory:server:OpenInventory", "trunk", plate, other)
+  Line    37 | TriggerServerEvent("inventory:server:OpenInventory", "glovebox", plate, other)
+  Line    42 | TriggerServerEvent("inventory:server:OpenInventory", "stash", data.jobStashName, {
+  Line    50 | TriggerServerEvent("inventory:server:OpenInventory", "otherplayer", otherPlayer)
+
+File: snipe-menu/client/open/modules/vehiclekeys/jaksam.lua
+-----------------------------------------------------------
+  Line     4 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+
+File: snipe-menu/client/open/modules/weather/cd_easytime.lua
+------------------------------------------------------------
+  Line    14 | TriggerServerEvent('cd_easytime:ForceUpdate', values)
+  Line    29 | TriggerServerEvent('cd_easytime:ForceUpdate', values)
+
+File: snipe-menu/client/open/modules/weather/qb-weather.lua
+-----------------------------------------------------------
+  Line     3 | TriggerServerEvent("qb-weathersync:server:setWeather", weatherName) -- used to change the weather if you use qb-weathersync (edit if you use another weather script)
+  Line     7 | TriggerServerEvent("qb-weathersync:server:setTime", hours, mins) -- used to change the time if you use qb-weathersync (edit if you use another weather script)
+
+File: snipe-menu/client/open/modules/weather/renewedweather.lua
+---------------------------------------------------------------
+  Line     4 | TriggerServerEvent("qb-weathersync:server:setWeather", weatherName) -- used to change the weather if you use qb-weathersync (edit if you use another weather script)
+  Line     8 | TriggerServerEvent("qb-weathersync:server:setTime", hours, mins) -- used to change the time if you use qb-weathersync (edit if you use another weather script)
+
+File: snipe-menu/custom/client.lua
+----------------------------------
+  Line    36 | TriggerServerEvent("snipe-menu:server:removeVehicle", plate)
+
+File: snipe-menu/utils/cl_utils.lua
+-----------------------------------
+  Line     7 | TriggerServerEvent('utils:TriggerCallback', name, ...)
+
+File: tuff-hud/client/bridge/framework/QBCore/client.lua
+--------------------------------------------------------
+  Line   125 | TriggerServerEvent('hud:server:GainStress', math.random(1, 3))
+
+File: tuff-hud/client/bridge/framework/QBOX/client.lua
+------------------------------------------------------
+  Line   135 | TriggerServerEvent('hud:server:GainStress', math.random(1, 3))
+
+File: vrp-fishing/client/rent.lua
+---------------------------------
+  Line    31 | TriggerServerEvent('vrp-fishing:registerBoat', NetworkGetNetworkIdFromEntity(vehicle))
+
+File: vrp_ambulancejob/client/hospital.lua
+------------------------------------------
+  Line    86 | TriggerServerEvent("grp_ambulancejob:server:playerEnteredBed", hospital, bed)
+  Line   180 | TriggerServerEvent("hospital:server:putPlayerInBed", GetPlayerServerId(closestPlayer), hospitalName, i)
+  Line   258 | TriggerServerEvent("grp_ambulancejob:server:playerLeftBed", currentHospital, currentBed)
+  Line   302 | TriggerServerEvent("grp_ambulancejob:server:playerLeftBed", currentHospital, currentBed)
+
+File: vrp_ambulancejob/client/job.lua
+-------------------------------------
+  Line   125 | TriggerServerEvent("hospital:server:syncCPRPatient", targetServerId, "start")
+  Line   133 | TriggerServerEvent("hospital:server:syncCPRPatient", targetServerId, "stop")
+  Line   136 | TriggerServerEvent("hospital:server:RevivePlayer", targetServerId)
+  Line   137 | TriggerServerEvent("grp_ambulancejob:server:BillRevivedPlayer", targetServerId, Config.reviveCost, cache.serverId)
+  Line   209 | TriggerServerEvent("hospital:server:TreatWounds", GetPlayerServerId(closestPlayer))
+  Line   253 | TriggerServerEvent("QBCore:ToggleDuty")
+  Line   254 | TriggerServerEvent("police:server:UpdateBlips")
+
+File: vrp_ambulancejob/client/jobmenu.lua
+-----------------------------------------
+  Line   144 | TriggerServerEvent("grp_ambulancejob:server:RequestBillPlayer", targetId, amount)
+  Line   293 | TriggerServerEvent("grp_ambulancejob:server:RequestBillPlayer", targetId, amount)
+  Line   406 | TriggerServerEvent("grp_ambulancejob:server:UseMedicItem", {
+  Line   501 | TriggerServerEvent("grp_ambulancejob:server:ConfirmBillResult", sender, amount, response == "confirm")
+
+File: vrp_ambulancejob/client/laststand.lua
+-------------------------------------------
+  Line    21 | TriggerServerEvent("hospital:server:UseFirstAid", GetPlayerServerId(closestPlayer))
+  Line    53 | TriggerServerEvent("hospital:server:syncCPRPatient", targetId, "start")
+  Line    62 | TriggerServerEvent("hospital:server:syncCPRPatient", targetId, "stop")
+  Line    65 | TriggerServerEvent("hospital:server:RevivePlayer", targetId)
+
+File: vrp_ambulancejob/client/main.lua
+--------------------------------------
+  Line   121 | TriggerServerEvent("qb-phone:server:sendNewMail", {
+  Line   214 | TriggerServerEvent("hospital:server:ambulanceAlert", msg)
+
+File: vrp_ambulancejob/client/medicine_seller.lua
+-------------------------------------------------
+  Line   249 | TriggerServerEvent("grp_ambulancejob:server:resetMedicineLimit", targetId)
+
+File: vrp_ambulancejob/client/setdownedstate.lua
+------------------------------------------------
+  Line    61 | TriggerServerEvent("hospital:server:ambulanceAlert", locale("info.civ_down"))
+
+File: vrp_ambulancejob/client/stretcher.lua
+-------------------------------------------
+  Line   217 | TriggerServerEvent("hospital:server:PutOnStretcher", targetServerId)
+  Line   261 | TriggerServerEvent("hospital:server:PutOnBed", targetId)
+  Line   264 | TriggerServerEvent("hospital:server:TakeOffBed", targetId)
+  Line   268 | TriggerServerEvent("hospital:server:PutOnBed", targetId)
+
+File: vrp_ambulancejob/client/surgery.lua
+-----------------------------------------
+  Line    12 | TriggerServerEvent("hospital:server:FaceSurgery", targetId)
+
+File: vrp_ambulancejob/client/wounding.lua
+------------------------------------------
+  Line    53 | TriggerServerEvent("hud:server:RelieveStress", math.random(25, 35))
+  Line   149 | TriggerServerEvent("hud:server:RelieveStress", math.random(25, 35))
+
+File: vrp_boombox/client/client.lua
+-----------------------------------
+  Line    35 | TriggerServerEvent('vrp_boombox:objDeleted')
+  Line    51 | TriggerServerEvent("vrp_boombox:soundStatus", "stop", musicId, {})
+  Line    54 | TriggerServerEvent("vrp_boombox:deleteObj", ObjToNet(closestRadio))
+  Line    58 | TriggerServerEvent('vrp_boombox:syncActive', activeRadios)
+  Line    71 | TriggerServerEvent('vrp_boombox:DiscordKnows',data.link)
+  Line   101 | TriggerServerEvent('vrp_boombox:save', input[1], input[2])
+  Line   122 | TriggerServerEvent("vrp_boombox:soundStatus", "play", musicId, { position = activeRadios[data.id].pos, link = data.link, volume = '0.2', distance = 25 })
+  Line   124 | TriggerServerEvent('vrp_boombox:syncActive', activeRadios)
+  Line   135 | TriggerServerEvent('vrp_boombox:deleteSong', data)
+  Line   156 | TriggerServerEvent("vrp_boombox:soundStatus", "play", musicId, { position = activeRadios[data.id].pos, link = keyboard[1], volume = keyboard[3]/100, distance = keyboard[2] })
+  Line   158 | TriggerServerEvent('vrp_boombox:syncActive', activeRadios)
+  Line   162 | TriggerServerEvent("vrp_boombox:soundStatus", "stop", musicId, {})
+  Line   164 | TriggerServerEvent('vrp_boombox:syncActive', activeRadios)
+  Line   169 | TriggerServerEvent("vrp_boombox:soundStatus", "volume", musicId, {volume = keyboard[1]/100})
+  Line   176 | TriggerServerEvent("vrp_boombox:soundStatus", "distance", musicId, {distance = keyboard[1]})
+
+File: vrp_boombox/client/functions.lua
+--------------------------------------
+  Line   118 | TriggerServerEvent('vrp_boombox:syncActive', activeRadios)
+
+File: vrp_BuilderJob/client/client.lua
+--------------------------------------
+  Line   278 | TriggerServerEvent("17mov_Callbacks:GetResponse" .. GetCurrentResourceName(), callbackName, callbackId, ...)
+  Line   851 | TriggerServerEvent("17mov_construction:ClientReactRequest", data.boolean)
+  Line   859 | TriggerServerEvent("17mov_construction:SendRequestToClient_sv", tonumber(data.id))
+  Line   865 | TriggerServerEvent("17mov_construction:KickPlayerFromLobby", targetId, true)
+  Line   874 | TriggerServerEvent("17mov_construction:SendRequestToClient_sv", data.id)
+  Line   879 | TriggerServerEvent("17mov_construction:KickPlayerFromLobby", data.id, true)
+  Line   923 | TriggerServerEvent("17mov_construction:StartJob_sv")
+  Line   938 | TriggerServerEvent("17mov_construction:KickPlayerFromLobby", targetId, false, GetPlayerServerId(PlayerId()))
+  Line  1104 | TriggerServerEvent("17mov_construction:SendVehicleNetId", JobVehicleNetId)
+  Line  1117 | TriggerServerEvent("17mov_constructionJob:sendMixer", hostId, mixerNetId)
+  Line  1119 | TriggerServerEvent("17mov_construction:SendVehicleNetId", mixerNetId)
+  Line  1223 | TriggerServerEvent("17movement_builder:disableCustomTask", currentHostId, taskIndex)
+  Line  1249 | TriggerServerEvent("17mov_builder:CustomTaskDone", currentHostId, taskData, taskIndex)
+  Line  1403 | TriggerServerEvent("17mov_constructionJob:weldingReady", currentHostId, weldingIndex, weldingTask.progressValue)
+  Line  1405 | TriggerServerEvent("17mov_constructionJob:weldingReady", currentHostId, weldingIndex, weldingTask.progressValue)
+  Line  1463 | TriggerServerEvent("17mov_constructionJob:deleteBlockFromSpawn", currentHostId, wallIndex)
+  Line  1558 | TriggerServerEvent("17mov_constructionJob:installBlockOnWall", currentHostId, {
+  Line  1740 | TriggerServerEvent("17mov_Construction:DisableThisPipe", currentHostId, {
+  Line  1782 | TriggerServerEvent("17mov_Construction:SpawnPipe_SV", currentHostId, pipeData, {
+  Line  1823 | TriggerServerEvent("17mov_construction:PourConcrete", currentHostId, mixerLocation.concreteSettings, {
+  Line  2105 | TriggerServerEvent("17mov_construction:endJob_sv", true, JobVehicleNetId)
+  Line  2221 | TriggerServerEvent("17mov_construction:endJob_sv", false, JobVehicleNetId)
+
+File: vrp_BuilderJob/client/functions.lua
+-----------------------------------------
+  Line    98 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+  Line   178 | TriggerServerEvent('qb-clothes:loadPlayerSkin')
+
+File: vrp_busjob/client/main.lua
+--------------------------------
+  Line   336 | TriggerServerEvent("vrp_busjob:server:UnlockRoute", routeId)
+  Line   346 | TriggerServerEvent("vrp_busjob:server:UnlockRoute", routeId)
+  Line   609 | TriggerServerEvent("vrp_busjob:server:RewardLeftItem")
+  Line   831 | TriggerServerEvent("vrp_busjob:server:CompleteRoute", busState.currentRoute)
+  Line   838 | TriggerServerEvent("vrp_busjob:server:UnlockRoute", busState.currentRoute)
+  Line   913 | TriggerServerEvent("vrp_busjob:server:RouteFailed", routeId, "abandoned_passengers")
+  Line   995 | TriggerServerEvent("vrp_busjob:server:RouteFailed", routeId, "time_expired")
+  Line  1132 | TriggerServerEvent("vrp_busjob:server:GiveBusKeys", netId)
+  Line  1145 | TriggerServerEvent("vrp_busjob:server:UnlockRoute", busState.currentRoute)
+
+File: vrp_character/client/main.lua
+-----------------------------------
+  Line   192 | TriggerServerEvent('vrp_character:server:setBucket')
+  Line   344 | TriggerServerEvent('vrp_character:server:resetBucket')
+  Line   393 | TriggerServerEvent('illenium-appearance:server:saveAppearance', skin)
+  Line   394 | TriggerServerEvent('vrp_character:server:resetBucket')
+  Line   425 | TriggerServerEvent('vrp_character:server:resetBucket')
+  Line   480 | TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
+  Line   484 | TriggerServerEvent('vrp_character:server:giveStarterItems')
+  Line   519 | TriggerServerEvent('vrp_character:server:loadUserData', data.cData)
+  Line   526 | TriggerServerEvent('vrp_character:server:createCharacter', data)
+  Line   532 | TriggerServerEvent('vrp_character:server:deleteCharacter', data.citizenid)
+  Line   576 | TriggerServerEvent('vrp_character:server:logout')
+
+File: vrp_combatlog/client/functions.lua
+----------------------------------------
+  Line     3 | TriggerServerEvent("vrp_combatlog:server:registerCitizen") --This will make the player eligible for the ped creation
+
+File: vrp_crafting/client/cl_main.lua
+-------------------------------------
+  Line    83 | TriggerServerEvent("vrp-crafting:server:requestConfig")
+  Line    89 | TriggerServerEvent("vrp-crafting:server:getBenches")
+  Line    90 | TriggerServerEvent("vrp-crafting:server:requestPlayerData")
+  Line   434 | TriggerServerEvent("vrp-crafting:server:openBench", benchId)
+  Line   754 | TriggerServerEvent("vrp-crafting:server:completeCraft", data.benchId, data.recipeIndex, false, data.craftToken)
+  Line   770 | TriggerServerEvent("vrp-crafting:server:cancelCraft", data.craftToken)
+  Line   775 | TriggerServerEvent("vrp-crafting:server:completeCraft", data.benchId, data.recipeIndex, skillCheckSuccess, data.craftToken)
+  Line   825 | TriggerServerEvent("vrp-crafting:server:craftItem", CurrentBenchId, data.recipeIndex)
+  Line   835 | TriggerServerEvent("vrp-crafting:server:craftItem", CurrentBenchId, data.recipeIndex)
+  Line   883 | TriggerServerEvent("vrp-crafting:server:closeCreator")
+  Line   896 | TriggerServerEvent("vrp-crafting:server:saveBench", data)
+  Line   901 | TriggerServerEvent("vrp-crafting:server:deleteBench", data.id)
+  Line   906 | TriggerServerEvent("vrp-crafting:server:saveSettings", data)
+  Line   911 | TriggerServerEvent("vrp-crafting:server:saveRecipeGroups", data.groups or {})
+  Line   980 | TriggerServerEvent("vrp-crafting:server:getPlayerInfo", data.playerId)
+  Line  1036 | TriggerServerEvent("vrp-crafting:server:openCreator")
+  Line  1040 | TriggerServerEvent("vrp-crafting:server:openCreator")
+  Line  1076 | TriggerServerEvent("vrp-crafting:server:requestConfig")
+  Line  1082 | TriggerServerEvent("vrp-crafting:server:getBenches")
+  Line  1141 | TriggerServerEvent("vrp-crafting:server:requestConfig")
+  Line  1142 | TriggerServerEvent("vrp-crafting:server:getBenches")
+
+File: vrp_crafting/config/config.lua
+------------------------------------
+  Line    57 | TriggerServerEvent('vrp-crafting:server:requestConfig')
+
+File: vrp_Deliverer/client/client.lua
+-------------------------------------
+  Line   221 | TriggerServerEvent(
+  Line   935 | TriggerServerEvent("17mov_deliverer:endJob_sv", true)
+  Line   948 | TriggerServerEvent("17mov_deliverer:endJob_sv", false)
+  Line  1223 | TriggerServerEvent("17mov_deliverer:ClientReactRequest", data.boolean)
+  Line  1232 | TriggerServerEvent(
+  Line  1245 | TriggerServerEvent("17mov_deliverer:KickPlayerFromLobby", id, true)
+  Line  1413 | TriggerServerEvent("17mov_deliverer:StartJob_sv")
+  Line  1430 | TriggerServerEvent(
+  Line  1524 | TriggerServerEvent("17mov_deliverer:uploadJobVehicle", JobVehicleNetId)
+  Line  2179 | TriggerServerEvent(
+
+File: vrp_Deliverer/client/functions.lua
+----------------------------------------
+  Line    95 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+  Line   169 | TriggerServerEvent('qb-clothes:loadPlayerSkin')
+
+File: vrp_GarbageCollector/client/client.lua
+--------------------------------------------
+  Line   615 | return TriggerServerEvent("17mov_Garbage:endJob_sv", true, true)
+  Line   688 | TriggerServerEvent("17mov_GarbageCollector:server:hideBox")
+  Line   693 | TriggerServerEvent("17mov_GarbageCollector:ToggleTrunk", JobVehicleNetId, true)
+  Line   694 | TriggerServerEvent("17mov_GarbageCollector:server:startUnloadAnim", bagsToUnload, nearbyPlayers)
+  Line   710 | TriggerServerEvent("17mov_GarbageCollector:ToggleTrunk", JobVehicleNetId, false)
+  Line   721 | return TriggerServerEvent("17mov_Garbage:endJob_sv", true)
+  Line  1111 | TriggerServerEvent("17mov_GarbageCollector:server:GarbageSetOcupied", objectNetId, #sceneData.Stages, nil, shouldForceStop)
+  Line  1350 | TriggerServerEvent("17mov_GarbageCollector:server:TeleportCrewMembers", JobVehicleNetId, teleportTime)
+  Line  1382 | TriggerServerEvent("17mov_GarbageJob:SendVehicleNetId", JobVehicleNetId)
+  Line  1659 | TriggerServerEvent("17mov_GarbageCollector:server:fixRotation", ObjectToNetwork(obj))
+  Line  1775 | TriggerServerEvent("17mov_GarbageCollector:server:clearRequest")
+  Line  1840 | TriggerServerEvent("17mov_GarbageCollector:BagCollected", nearbyPlayerIds, {coords = bagCoords, model = bagModel})
+  Line  1845 | TriggerServerEvent("17mov_GarbageCollector:server:BagCollected", networkId)
+  Line  1877 | TriggerServerEvent("17mov_GarbageCollector:server:clearRequest")
+  Line  2117 | TriggerServerEvent("17mov_GarbageCollector:ToggleTrunk", vehicleNetId, true)
+  Line  2170 | TriggerServerEvent("17mov_Garbage:UpdateServerPartyBagsCounter", bagModel)
+  Line  2171 | TriggerServerEvent("17mov_GarbageCollector:ToggleTrunk", vehicleNetId, false)
+  Line  2228 | TriggerServerEvent("17mov_GarbageCollector:server:GarbageSetOcupied", networkId, nil, {
+  Line  2377 | TriggerServerEvent("17mov_GarbageCollector:server:clearRequest")
+  Line  2425 | return TriggerServerEvent("17mov_Garbage:server:endStage")
+  Line  2429 | return TriggerServerEvent("17mov_Garbage:endJob_sv", true)
+  Line  2506 | TriggerServerEvent("17mov_Garbage:endJob_sv", false, true)
+  Line  2530 | TriggerServerEvent("17mov_Garbage:StartJob_sv")
+  Line  2546 | TriggerServerEvent("17mov_Garbage:KickPlayerFromLobby", playerId, false, GetPlayerServerId(PlayerId()))
+  Line  2658 | TriggerServerEvent("17mov_Garbage:ClientReactRequest", accepted)
+  Line  2668 | TriggerServerEvent("17mov_Garbage:SendRequestToClient_sv", tonumber(data.id))
+  Line  2671 | TriggerServerEvent("17mov_Garbage:SendRequestToClient_sv", data.id)
+  Line  2680 | TriggerServerEvent("17mov_Garbage:KickPlayerFromLobby", playerId, true)
+  Line  2683 | TriggerServerEvent("17mov_Garbage:KickPlayerFromLobby", data.id, true)
+
+File: vrp_GarbageCollector/client/core.lua
+------------------------------------------
+  Line   201 | TriggerServerEvent("17mov_Callbacks:GetResponse" .. GetCurrentResourceName(),
+  Line   375 | TriggerServerEvent("17mov_GarbageCollector:server:GarbageAnim",
+
+File: vrp_GarbageCollector/client/functions.lua
+-----------------------------------------------
+  Line   123 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+  Line   201 | TriggerServerEvent('qb-clothes:loadPlayerSkin')
+
+File: vrp_GruppeSechs/client/client.lua
+---------------------------------------
+  Line    90 | TriggerServerEvent("17mov_Callbacks:GetResponse" .. GetCurrentResourceName(), callbackName, callbackId, ...)
+  Line   711 | TriggerServerEvent("17mov_GruppeSechs:LoggedOut")
+  Line   742 | TriggerServerEvent("17mov_GruppeSechs:StartHeist", data.id)
+  Line   745 | TriggerServerEvent("17mov_GruppeSechs:endHeist", false)
+  Line   776 | TriggerServerEvent("17mov_GruppeSechs:ImReady", true)
+  Line   796 | TriggerServerEvent("17mov_GruppeSechs:NotifyCops", vehicleNetId, GetVehicleNumberPlateText(vehicle))
+  Line   804 | TriggerServerEvent("17mov_GrupeSechs:HasBeenFetched")
+  Line   815 | TriggerServerEvent("17mov_GruppeSechs:OpenVehicleDoors")
+  Line   820 | TriggerServerEvent("17mov_GruppeSechs:blockEngine")
+  Line   941 | TriggerServerEvent("17mov_GruppeSechs:endJob_sv", false, true, isUnderAttack)
+  Line  1004 | TriggerServerEvent("17mov_GruppeSechs:ClientReactRequest", data.boolean, data.isCrime)
+  Line  1011 | TriggerServerEvent("17mov_GruppeSechs:SendRequestToClient_sv", data.id, true)
+  Line  1018 | TriggerServerEvent("17mov_GruppeSechs:SendRequestToClient_sv", tonumber(data.id))
+  Line  1023 | TriggerServerEvent("17mov_GruppeSechs:KickPlayerFromLobby", playerId, true)
+  Line  1027 | TriggerServerEvent("17mov_GruppeSechs:KickPlayerFromLobby", data.id, true, nil, true)
+  Line  1069 | TriggerServerEvent("17mov_GruppeSechs:SendMessage", data.message)
+  Line  1178 | TriggerServerEvent("17mov_GruppeSechs:StartJob_sv")
+  Line  1187 | TriggerServerEvent("17mov_GruppeSechs:KickPlayerFromLobby", data.id, false, GetPlayerServerId(PlayerId()), true)
+  Line  1196 | TriggerServerEvent("17mov_GruppeSechs:KickPlayerFromLobby", playerId, false, GetPlayerServerId(PlayerId()))
+  Line  1339 | TriggerServerEvent("17mov_GruppeSechs:SendVehicleNetId", JobVehicleNetId)
+  Line  1451 | TriggerServerEvent("17mov_GruppeSechs:firstStageReady", myId, false)
+  Line  1605 | TriggerServerEvent("17mov_GruppeSechs:firstStageReady", myId)
+  Line  1691 | TriggerServerEvent("17mov_GruppeSechs:attachEntity", {
+  Line  1743 | TriggerServerEvent("17mov_GruppeSechs:DeleteNetId", ObjToNet(realBag))
+  Line  1750 | TriggerServerEvent("17mov_GruppeSechs:OneBagGrabbed", bagToGrabIndex)
+  Line  1836 | TriggerServerEvent("17mov_GruppeSechs:DisableUsFromTransports")
+  Line  1866 | TriggerServerEvent("17mov_GruppeSechs:doorsOpenedOnTarget", myId, totalBags)
+  Line  1968 | TriggerServerEvent("17mov_GruppeSechs:RobComplete")
+  Line  2034 | TriggerServerEvent("17mov_GruppeSechs:ImReady")
+  Line  2214 | TriggerServerEvent("17mov_GruppeSechs:DeliverThisAtm", atmIndex, GetEntityHeading(guardPed))
+  Line  2298 | TriggerServerEvent("17mov_GruppeSechs:MoneyLoaded")
+  Line  2347 | TriggerServerEvent("17mov_GruppeSechs:DeleteNetId", ObjToNet(Config.BankLocations[bankId].DeliveryLocations[i].realProp))
+  Line  2348 | TriggerServerEvent("17mov_GruppeSechs:DeleteNetId", ObjToNet(Config.BankLocations[bankId].DeliveryLocations[i].helpProp))
+  Line  2354 | TriggerServerEvent("17mov_GruppeSechs:CloseDoorsFunc", bankId)
+  Line  2596 | TriggerServerEvent("17mov_GruppeSechs:SpawnDoors", doorObjNetId, doorSpawnCoords, spawnHeading, bankId, doorModel)
+  Line  2635 | TriggerServerEvent("17mov_GruppeSechs:disableThisStation", trolleyCoords)
+  Line  2812 | TriggerServerEvent("17mov_GruppeSechs:syncEntity", ObjToNet(bagProp), targetCoords, targetRotation)
+  Line  2892 | TriggerServerEvent("17mov_GruppeSechs:RemovePile", trolleyIdx, bankId)
+  Line  2906 | TriggerServerEvent("17mov_GruppeSechs:enableThisStation", trolleyData.coords)
+  Line  3055 | TriggerServerEvent("17mov_GruppeSechs:endJob_sv", true, false, isUnderAttack)
+  Line  3057 | TriggerServerEvent("17mov_GruppeSechs:endJob_sv", true, true, isUnderAttack)
+  Line  3177 | TriggerServerEvent("17mov_GruppeSechs:OpenDoor", bankData, bankId, ownHostId, isTargetDoor, doorModel)
+  Line  3179 | TriggerServerEvent("17mov_GruppeSechs:closeDoor", bankData, bankId)
+
+File: vrp_GruppeSechs/client/functions.lua
+------------------------------------------
+  Line    83 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+  Line   148 | TriggerServerEvent('qb-clothes:loadPlayerSkin')
+
+File: vrp_hunting/client/cl_main.lua
+------------------------------------
+  Line   105 | TriggerServerEvent('vrp_hunting:server:AddItem', animal, NetworkGetNetworkIdFromEntity(entity),
+  Line   109 | TriggerServerEvent('vrp_hunting:server:AddItem', animal, NetworkGetNetworkIdFromEntity(entity), 'default')
+  Line   153 | TriggerServerEvent('vrp_hunting:server:sellSpecificItem', itemName, input[1])
+  Line   219 | TriggerServerEvent('vrp_hunting:server:choiceWhichAnimalToSpawn', coord, outPosition, zone_type,
+  Line   313 | TriggerServerEvent('vrp_hunting:server:removeBaitFromPlayerInventory')
+
+File: vrp_log/client/damage.lua
+-------------------------------
+  Line    84 | TriggerServerEvent('damagelog:playerDamaged', {
+
+File: vrp_log/client/death.lua
+------------------------------
+  Line    63 | TriggerServerEvent('deathlog:playerDied', deathData)
+
+File: vrp_medical/client/dead.lua
+---------------------------------
+  Line    32 | TriggerServerEvent('vrp_medical:server:onPlayerDied', attacker, weapon)
+  Line    33 | TriggerServerEvent('InteractSound_SV:PlayOnSource', 'demo', 0.1)
+
+File: vrp_medical/client/laststand.lua
+--------------------------------------
+  Line    35 | TriggerServerEvent('vrp_medical:server:onPlayerLaststandEnd')
+  Line    90 | TriggerServerEvent('InteractSound_SV:PlayOnSource', 'demo', 0.1)
+  Line    96 | TriggerServerEvent('vrp_medical:server:onPlayerLaststand', attacker, weapon)
+
+File: vrp_medical/client/main.lua
+---------------------------------
+  Line   250 | TriggerServerEvent('hud:server:RelieveStress', 100)
+
+File: vrp_motel/bridge/inventory/client/qb-inventory.lua
+--------------------------------------------------------
+  Line     4 | TriggerServerEvent('inventory:server:OpenInventory', 'stash', 'stash_'..data.motel..'_'..identifier..'_'..data.index, {})
+  Line     5 | TriggerServerEvent("InteractSound_SV:PlayOnSource", "StashOpen", 0.4)
+
+File: vrp_motel/bridge/inventory/client/quasargago.lua
+------------------------------------------------------
+  Line     4 | TriggerServerEvent('inventory:server:OpenInventory', 'stash', 'stash_'..data.motel..'_'..identifier..'_'..data.index, {})
+  Line     5 | TriggerServerEvent("InteractSound_SV:PlayOnSource", "StashOpen", 0.4)
+
+File: vrp_motel/client/main.lua
+-------------------------------
+  Line    91 | TriggerServerEvent('vrp_motels:Door', {
+  Line   166 | TriggerServerEvent('vrp_motels:Door', {
+  Line   918 | TriggerServerEvent('vrp_motels:Door', {
+
+File: vrp_police/client/anpr.lua
+--------------------------------
+  Line    12 | TriggerServerEvent('police:server:Radar', i)
+  Line    13 | TriggerServerEvent('InteractSound_SV:PlayOnSource', 'speedcamera', 0.25)
+  Line    40 | TriggerServerEvent('police:server:FlaggedPlateTriggered', radar, plate, street)
+
+File: vrp_police/client/cl_veh_tracker.lua
+------------------------------------------
+  Line   128 | TriggerServerEvent('vrp_tracker:server:setobj', NetworkGetNetworkIdFromEntity(vehicle), plate)
+  Line   129 | -- TriggerServerEvent('vrp_tracker:server:removeItem', item) -- Removed so item isn't consumed
+
+File: vrp_police/client/interactions.lua
+----------------------------------------
+  Line    14 | TriggerServerEvent('InteractSound_SV:PlayOnSource', QBX.PlayerData.metadata.ishandcuffed and 'Cuff' or 'Uncuff', 0.2)
+  Line    19 | TriggerServerEvent('InteractSound_SV:PlayOnSource', 'Cuff', 0.2)
+  Line    28 | TriggerServerEvent('InteractSound_SV:PlayOnSource', 'Cuff', 0.2)
+  Line   122 | TriggerServerEvent('police:server:SearchPlayer', playerId)
+  Line   129 | TriggerServerEvent('police:server:SeizeCash', playerId)
+  Line   168 | TriggerServerEvent('police:server:RobPlayer', playerId)
+  Line   186 | TriggerServerEvent('police:server:JailPlayer', playerId, dialog[1])
+  Line   200 | TriggerServerEvent('police:server:BillPlayer', playerId, dialog[1])
+  Line   211 | TriggerServerEvent(eventName, playerId)
+  Line   231 | TriggerServerEvent('police:server:KidnapPlayer', playerId)
+  Line   340 | TriggerServerEvent('police:server:SetHandcuffStatus', true)
+  Line   354 | TriggerServerEvent('police:server:SetHandcuffStatus', false)
+  Line   371 | TriggerServerEvent('police:server:SetHandcuffStatus', false)
+  Line   373 | TriggerServerEvent('InteractSound_SV:PlayOnSource', 'Uncuff', 0.2)
+
+File: vrp_police/client/job.lua
+-------------------------------
+  Line    98 | TriggerServerEvent('police:server:TakeOutImpound', vehicle.plate, currentGarage)
+  Line   202 | TriggerServerEvent('inventory:server:OpenInventory', 'stash', locale('info.current_evidence', currentEvidence, slotNumber), {
+  Line   256 | TriggerServerEvent('police:server:showFingerprint', GetPlayerServerId(playerId))
+  Line   352 | TriggerServerEvent('police:server:showFingerprintId', fingerprintSessionId)
+  Line   357 | TriggerServerEvent('police:server:SendEmergencyMessage', coords, message)
+  Line   455 | TriggerServerEvent('police:server:Impound', plate, fullImpound, price, bodyDamage, engineDamage, totalFuel)
+  Line   480 | TriggerServerEvent('QBCore:ToggleDuty')
+
+File: vrp_police/client/main.lua
+--------------------------------
+  Line    44 | TriggerServerEvent('police:server:SetHandcuffStatus', false)
+  Line    73 | TriggerServerEvent('police:server:SetHandcuffStatus', false)
+  Line    90 | TriggerServerEvent('qb-phone:server:sendNewMail', {
+  Line   155 | TriggerServerEvent('police:server:SetHandcuffStatus', false)
+  Line   163 | TriggerServerEvent('police:server:policeAlert', locale('info.officer_down', QBX.PlayerData.charinfo.lastname, QBX.PlayerData.metadata.callsign))
+  Line   164 | TriggerServerEvent('hospital:server:ambulanceAlert', locale('info.officer_down', QBX.PlayerData.charinfo.lastname, QBX.PlayerData.metadata.callsign))
+
+File: vrp_police/client/objects.lua
+-----------------------------------
+  Line    98 | TriggerServerEvent('police:server:despawnObject', objectId)
+  Line   260 | TriggerServerEvent('police:server:despawnSpikeStrip', spike)
+
+File: vrp_police/client/tracker.lua
+-----------------------------------
+  Line     8 | TriggerServerEvent('police:server:SetTracker', playerId)
+  Line    30 | TriggerServerEvent('police:server:SendTrackerLocation', GetEntityCoords(cache.ped), requestId)
+
+File: vrp_Postman/client/client.lua
+-----------------------------------
+  Line   112 | TriggerServerEvent("17mov_Callbacks:GetResponse" .. GetCurrentResourceName(), name, id, ...)
+  Line   498 | TriggerServerEvent("17mov_postman:endJob_sv", true)
+  Line   509 | TriggerServerEvent("17mov_postman:endJob_sv", false)
+  Line   686 | TriggerServerEvent("17mov_postman:ClientReactRequest", data.boolean)
+  Line   694 | TriggerServerEvent("17mov_postman:SendRequestToClient_sv", tonumber(data.id))
+  Line   700 | TriggerServerEvent("17mov_postman:KickPlayerFromLobby", id, true)
+  Line   794 | TriggerServerEvent("17mov_postman:StartJob_sv")
+  Line   809 | TriggerServerEvent("17mov_postman:KickPlayerFromLobby", id, false, GetPlayerServerId(PlayerId()))
+  Line   864 | TriggerServerEvent("17mov_postman:uploadJobVehicle", VehToNet(veh))
+  Line  1005 | TriggerServerEvent("17mov_postman:collectLetter", GetEntityCoords(mailbox), GetEntityHealth(mailbox))
+
+File: vrp_Postman/client/functions.lua
+--------------------------------------
+  Line    96 | TriggerServerEvent("vehicles_keys:selfGiveVehicleKeys", plate)
+  Line   175 | TriggerServerEvent('qb-clothes:loadPlayerSkin')
+
+File: vrp_restaurants/client/admin.lua
+--------------------------------------
+  Line    51 | TriggerServerEvent("vrp_restaurants:server:admin", {
+
+File: vrp_restaurants/client/chairs.lua
+---------------------------------------
+  Line    16 | TriggerServerEvent("vrp_restaurants:server:sitChair", chairId, true)
+  Line    34 | TriggerServerEvent("vrp_restaurants:server:sitChair", chairId, false)
+
+File: vrp_restaurants/client/functions.lua
+------------------------------------------
+  Line    71 | if Config.inventory == 'ox_inventory' then TriggerServerEvent('vrp_restaurants:server:updateSpawnedShopPeds', id, 'delete') end
+  Line    75 | if not PlayerData.job.onduty then TriggerServerEvent("QBCore:ToggleDuty") end
+  Line    77 | if not QBX.PlayerData.job.onduty then TriggerServerEvent("QBCore:ToggleDuty") end
+  Line    93 | if Config.inventory == 'ox_inventory' then TriggerServerEvent('vrp_restaurants:server:updateSpawnedShopPeds', id, 'spawn') end
+  Line    97 | if PlayerData.job.onduty then TriggerServerEvent("QBCore:ToggleDuty") end
+  Line    99 | if QBX.PlayerData.job.onduty then TriggerServerEvent("QBCore:ToggleDuty") end
+  Line   169 | TriggerServerEvent("inventory:server:OpenInventory", "stash", id, { maxweight = (weight*1000), slots = slots })
+  Line   187 | TriggerServerEvent("inventory:server:OpenInventory", "shop", id, Item)
+  Line   287 | TriggerServerEvent('hud:server:RelieveStress', customBuffs.stress)
+
+File: vrp_restaurants/client/main.lua
+-------------------------------------
+  Line    20 | TriggerServerEvent('hud:server:RelieveStress', math.random(5, 10))
+
+File: vrp_restaurants/client/music.lua
+--------------------------------------
+  Line    34 | TriggerServerEvent("vrp_restaurants:server:playSong", musicId, input, coords)
+  Line    59 | TriggerServerEvent("vrp_restaurants:server:changeSongStatus", musicId, input)
+  Line    64 | TriggerServerEvent("vrp_restaurants:server:stopSong", musicId)
+
+File: vrp_spawn/client/main.lua
+-------------------------------
+  Line   215 | TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
+
+File: vrp_taxijob/client/main.lua
+---------------------------------
+  Line   121 | TriggerServerEvent("vrp_taxijob:server:completeRide", currentRide)
+  Line   362 | TriggerServerEvent("vrp_taxijob:server:toggleDuty", data.goOnDuty)
+  Line   368 | TriggerServerEvent("vrp_taxijob:server:acceptOffer", data.offerId)
+  Line   374 | TriggerServerEvent("vrp_taxijob:server:declineOffer", data.offerId)
+  Line   380 | TriggerServerEvent("vrp_taxijob:server:cancelRide")
+  Line   642 | TriggerServerEvent("qb-taxi:server:NpcPay", MeterData.currentFare)
+  Line   829 | TriggerServerEvent("qb-taxi:server:NpcPay", MeterData.currentFare)
+  Line  1275 | TriggerServerEvent("vrp_taxijob:server:toggleDuty", false)
+
+File: vrp_towjob/client/main.lua
+--------------------------------
+  Line   166 | TriggerServerEvent("qb-tow:server:DoBail", false)
+  Line   366 | TriggerServerEvent("qb-tow:server:DoBail", true, data.vehicle)
+  Line   381 | TriggerServerEvent("qb-tow:server:DoBail", false)
+  Line   465 | TriggerServerEvent("vrp_towjob:server:getTowData")
+  Line   470 | TriggerServerEvent("vrp_towjob:server:toggleTowDuty")
+  Line   476 | TriggerServerEvent("vrp_towjob:server:acceptTowOffer", data.offerId)
+  Line   483 | TriggerServerEvent("vrp_towjob:server:declineTowOffer", data.offerId)
+  Line   489 | TriggerServerEvent("vrp_towjob:server:cancelTowJob")
+  Line   587 | TriggerServerEvent("vrp_towjob:server:completeTowJob")
+  Line   816 | TriggerServerEvent("vrp_towjob:server:requestCurrentOffers")
+  Line   833 | TriggerServerEvent("vrp_towjob:server:requestCurrentOffers")
+  Line   909 | TriggerServerEvent("vrp_towjob:server:toggleTowDuty", true)
+
+File: w-backitemdisplay/client/client.lua
+-----------------------------------------
+  Line   286 | TriggerServerEvent("w-backitemdisplay:updatePlayers", nil, state)
+
+File: w-backitemdisplay/shared/editable.lua
+-------------------------------------------
+  Line   216 | TriggerServerEvent("w-backitemdisplay:updatePlayer", weapons)
+  Line   224 | TriggerServerEvent("w-backitemdisplay:updatePlayer")
+  Line   227 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   230 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   233 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   236 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   239 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   242 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   245 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   248 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   251 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   254 | TriggerServerEvent("weaponOnBack:updatePlayer")
+  Line   261 | TriggerServerEvent("w-backitemdisplay:updatePlayer")
+
+File: wais-bodycamv2/client/client.lua
+--------------------------------------
+  Line    90 | TriggerServerEvent("wais:removeTable:bodycam:inventory")
+  Line   111 | TriggerServerEvent("wais:removeTable:bodycam:inventory")
+  Line   129 | TriggerServerEvent("wais:removeTable:bodycam:inventory")
+  Line   173 | TriggerServerEvent("wais:checkPlayer:job")
+  Line   178 | TriggerServerEvent("wais:checkPlayer:job")
+  Line   265 | TriggerServerEvent("wais:add:tableDashcam", netId, plate, bone)
+  Line   353 | TriggerServerEvent("wais:upload:record", data)
+  Line   381 | TriggerServerEvent("wais:checkPlayer:job")
+  Line   533 | TriggerServerEvent("wais:removeTable:dashcam", tableId)
+  Line   577 | TriggerServerEvent("wais:unload")
+  Line   841 | TriggerServerEvent("wais:removeTable:dashcam", GetPlayerServerId(PlayerId()))
+
+File: welcome/client/main.lua
+-----------------------------
+  Line    61 | TriggerServerEvent('welcome_car:server:claimVehicle')
+  Line   141 | TriggerServerEvent("qb-vehiclekeys:server:AcquireVehicleKeys", actualPlate)
+  Line   144 | TriggerServerEvent('qs-vehiclekeys:server:GiveKeys', actualPlate, vehicle)
+
+File: x99-pdbadge-main/client/client.lua
+----------------------------------------
+  Line   150 | TriggerServerEvent("x99-badge:item:create", name, callsign, rank, photo, type)
+  Line   275 | TriggerServerEvent("x99-badge:SaveMetaData", PlayerData.metadata.phonedata)
+
+File: xsound/addon/crewphone/client/client.lua
+----------------------------------------------
+  Line    29 | TriggerServerEvent("muzik-durdur", muzikAdi)
+  Line    35 | TriggerServerEvent("muzik-cal", pos, muzikAdi, "phone-ring/" .. link, serverId, true)
+  Line    37 | TriggerServerEvent("muzik-cal", pos, muzikAdi, "https://www.youtube.com/watch?v=" .. link, serverId, false)
+  Line    69 | TriggerServerEvent("muzik-durdur", tostring(GetPlayerServerId(PlayerId())))
+  Line    84 | TriggerServerEvent("muzik-duraklat", myId)
+  Line   100 | TriggerServerEvent("muzik-devamet", myId)
